@@ -40,7 +40,7 @@ draft = false
 {{< /showcase-section >}}
 
 {{< about-section
-    title="About me"
+    title="About Kiko"
     content="This content is using the <code>about-section</code> shortcode. <br/>You can write <code>HTML</code>, as long as you <em>wrap it</em> accordingly. "
     button_icon="icon-user"
     button_text="Check my skills"
