@@ -107,34 +107,26 @@ weight = 0
 
 [languages.en.menus]
 [[languages.en.menus.header]]
-name = "Home"
+name = "Startseite"
 URL = "/"
 weight = 1
 [[languages.en.menus.header]]
 name = 'About'
 URL = '#about'
 weight = 2
-[[languages.en.menus.header]]
-name = 'Skills'
-URL = '/skills'
-weight = 3
-[[languages.en.menus.header]]
-name = 'Portfolio'
-URL = '#portfolio'
-weight = 4
-#  [[languages.en.menus.header]]
-#  name = "Experience"
-#  URL = "#experience"
-#  weight = 4
 
 [[languages.en.menus.header]]
 pre = "email"
 name = "email"
-URL = "#contact"
-weight = 6
+URL = "mailto:spyingonscience@posteo.com?subject=Kontaktaufnahme%20über%20die%20Webseite%20spyingonscience.com'"
+weight = 3
+[[languages.en.menus.header]]
+name = 'Skills'
+URL = '/skills'
+weight = 4
 
 [[languages.en.menus.footer]]
-name = "Home"
+name = "Startseite"
 URL = "/"
 weight = 1
 
@@ -144,15 +136,15 @@ URL = "#about"
 weight = 2
 
 [[languages.en.menus.footer]]
-name = "Portfolio"
-URL = "#portfolio"
+pre = "email"
+name = "email"
+URL = "mailto:spyingonscience@posteo.com?subject=Kontaktaufnahme%20über%20die%20Webseite%20spyingonscience.com'"
 weight = 3
 
 [[languages.en.menus.footer]]
-name = "Contact"
-URL = "#contact"
+name = 'Impressum & Datenschutz'
+URL = '/impressum-datenschutz'
 weight = 4
-
 
 
 

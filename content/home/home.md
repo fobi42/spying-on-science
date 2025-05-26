@@ -6,68 +6,49 @@ draft = false
 
 
 {{< showcase-section
-    title="Showcase section"
-    subtitle="Subtitle - coming from <code>home.md</code>"
+    title="👀"
+    subtitle="I spy with my little eye .. some <strong>limnology</strong> and <strong>scicomm</strong> action nearby!"
     buttonText="Email"
-    description="<strong>Strong</strong>, <em>italic</em> and normal text. This comes from <a href='https://github.com/zetxek/adritian-demo/blob/main/content/home/home.md?plain=1'><code>home.md</code></a>, using the <code>showcase-section</code> <a href=''>shortcode</a>.<br/>Below you can see the social links, provided by the <code>platform-links</code> shortcode."
-    imgSrc="images/showcase/showcase.png"
-    imgScale="0.5"
+    description="<br/> <br/> Als freiberufliche Biologin engagiere ich mich in der <strong>Gewässerforschung</strong> und <strong>außerschulischen Bildung</strong>. <br/> <br/><br/><code>Sie wollen direkt mit mir Kontaktaufnehmen?<br/>   Nur zu! Ich freue mich über eine <a href='mailto:spyingonscience@posteo.com?subject=Kontaktaufnahme%20über%20die%20Webseite%20spyingonscience.com'><code>E-Mail</code></a>.<br/>  Bitte rechnen Sie mit einer Antwortdauer von bis zu 5 Werktagen (vor allem während der Geländesaison im Mai bis Oktober).</code> "
+    imgSrc="images/showcase/spyingonscience-logo.png"
+    imgScale="0.5" 
  >}}
 
-{{< platform-links >}}
-    {{< link icon="square-facebook" url="https://facebook.com/yourpage" >}}
-    {{< link icon="square-twitter" url="https://twitter.com/yourpage" >}}
-    {{< link icon="linkedin" url="https://www.linkedin.com/in/adrianmoreno/" >}}
-    {{< link icon="square-github" url="https://github.com/zetxek" >}}
-    {{< link icon="x-twitter" url="https://twitter.com/zetxek" >}}
-    {{< link icon="dribbble" url="#" >}}
-    {{< link icon="behance" url="#" >}}
-    {{< link icon="youtube" url="#" >}}
-    {{< link icon="instagram" url="https://www.instagram.com/zetxek/" >}}
-    {{< link icon="square-facebook" url="https://www.facebook.com/zetxek/" >}}
-    {{< link icon="codepen" url="#" >}}
-    {{< link icon="yelp" url="https://www.yelp.com/" >}}
-    {{< link icon="bluesky" url="https://www.bluesky.com/" >}}
-    {{< link icon="threads" url="https://www.threads.net/" >}}
-    {{< link icon="face-smile" url="https://www.adrianmoreno.info/" >}}
-    {{< link icon="user" url="https://www.adrianmoreno.info/" >}}
-    {{< link icon="quote-left" url="https://www.adrianmoreno.info/" >}}
-    {{< link icon="cloud-arrow-down" url="https://www.adrianmoreno.info/" >}}
-    {{< link icon="square-xing" url="https://www.adrianmoreno.info/" >}}
-
-{{< /platform-links >}}
 
 {{< /showcase-section >}}
 
+
+
+{{< platform-links >}}
+    {{< link icon="linkedin" url="https://www.linkedin.com/in/andrea-koplitz-weissgerber/" >}}
+    {{< link icon="instagram" url="https://www.instagram.de/spyingonscience/" >}}
+
+
+{{< /platform-links >}}
+
+{{< experience-section
+    title="Aktuelles & Angebote"
+    intro_title="_"
+    intro_description="🤝 Unter den aktuellen Veranstaltungen, bei denen ich mitwirke, finden Sie u. A. auch öffentliche Termine wo Sie mich persönlich kennenlernen können. Viele der Veranstaltungen können dank meinen Partnerinstitutionen oft zu einem geringen Beitrag oder ganz kostenlos besucht werden! Informieren Sie sich, es lohnt sich!  <br/><br/>💡 Naturwissenschaftliche Inhalte direkt an den Mensch zu bringen und dadurch nachhaltig Umweltkompetenz zu vermitteln, zu fördern und zu stärken ist mir ein besonderes Anliegen. In die Tat setzte ich dies durch mein Mitwirken bei verschiedenen Events um.<br/><br/>🔬 Ich bearbeite als Limnologin im Rahmen meiner wissenschaftlichen Arbeit Projekte zu den Stichworten Limnologie, Feldarbeit, Mikroskopie und Diatomeen. Informieren Sie sich gerne auf dieser Seite, ob eine Zusammenarbeit mit mir Sie überzeugt. " 
+
+    hideViewAll="false"
+>}}
+
 {{< about-section
-    title="About Kiko"
-    content="This content is using the <code>about-section</code> shortcode. <br/>You can write <code>HTML</code>, as long as you <em>wrap it</em> accordingly. "
+    title="Über meine Person, Passion und Mission"
+    content=" Seite muss noch anders verlinkt werden "
     button_icon="icon-user"
-    button_text="Check my skills"
+    button_text="konkretere Informationen"
     button_url="/skills"
-    imgSrc="images/about/user-picture.png"
-    imgScale="0.5"
+    imgSrc="images/about/user-picture-1.png"
+    imgScale="0.3"
     text_align="center"
  >}}
 
 {{< education-list
-    title="Formal Education (education-list)" >}}
+    title="Berufsausbildung" >}}
 
-{{< experience-section
-    title="My job experience (title)"
-    intro_title="Intro (intro_title)"
-    intro_description="Description (intro_description).<br>You can use HTML,with <strong>strong</strong> formatting, or lists <ul><li>one</li><li>two</li></ul>" 
-    button1_url="https://example.com"
-    button1_text="(1) Visit Example"
-    button1_icon="icon-globe"
-    button2_text="(2) Skills"
-    button2_url="/skills"
-    hideViewAll="false"
->}}
-
-{{< experience-list
-    title="Experience (as list)"
-    padding="false" >}}
+{{< spacer size="large" >}}
 
 {{< client-and-work-section
     title="A selection of my work" >}} 

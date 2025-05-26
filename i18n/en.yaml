@@ -1,6 +1,6 @@
 ## Meta tags
 - id: "meta_title"
-  translation: "Adritian - a high performance hugo theme by Adrián Moreno"
+  translation: "spyingonscience mit Biologin Andrea Koplitz-Weissgerber, M. Sc."
 - id: "meta_description"
   translation: "This hugo theme (Adritian) is based on Bootstrap and has features that make it suitable for a personal site, a portfolio or other kind of Single Page Applications."
 - id: "meta_keywords"
@@ -16,10 +16,10 @@
   translation: "Adritian logo"
 
 - id: "logo_text1"
-  translation: "Adritian"
+  translation: "spying on science"
 
 - id: "logo_text2"
-  translation: "Demo"
+  translation: "spying on science"
 
 ## General
 - id: "skipToMainContent"
@@ -30,7 +30,7 @@
 
 ## Footer
 - id: "footer_notice"
-  translation: "© Adritian. Free Hugo theme by Adrián Moreno Peña."
+  translation: "© spyingonscience (free hugo theme)."
 
 - id: "language"
   translation: "Language"
@@ -47,7 +47,7 @@
 
 ## Homepage head title
 - id: "head_title"
-  translation: "Demo site for Adritian - a high performance hugo theme by Adrián Moreno"
+  translation: "spyingonscience mit Biologin Andrea Koplitz-Weissgerber, M. Sc."
 
 - id: "head_description"
   translation: "This hugo theme (Adritian) is based on Bootstrap and has features that make it suitable for a personal site, a portfolio or other kind of Single Page Applications."

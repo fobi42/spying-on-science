@@ -1,17 +1,29 @@
 ---
 date: 2023-12-01T00:00:00+01:00
 draft: false
-title: "Job #2"
-jobTitle: "Chief Intern"
-company: "Internet Affairs Inc. "
-location: "Stavanger, Norway"
-duration: "2023-2024"
+title: "_"
+jobTitle: "Umweltbildung"
+company: "Freiberufliche Referentin"
+location: "Raum München."
+duration: "seit 2021"
+companyLogo: "images/experience/scicomm.png"
 
 ---
-## 2nd job: Chief Intern
+# Angebote in außerschulischen Bildungseinrichtungen
+... Augen die Ungeahntes erblicken und fragende Münder in Gesichtern von Köpfen, die Neues für sich entdecken, von Menschen, die Zusammenhänge begreifen und Diskussionen über das gesammelte Wissen anzetteln: <strong>Das sind für mich die Sporen der Fruchtkörper meines Bildungsarbeit-Myzels!</strong> <br/>
 
-As Chief Intern at Internet Affairs Inc., I led several key initiatives that helped streamline our internal processes and boost productivity. Working closely with cross-functional teams, I developed and implemented an automated documentation system that reduced report generation time by 65% and improved accuracy by 40%.
+<sup>Diese Bio-Nerd-Referenz nicht kapiert? Kein Problem, da kann ich gerne durch mein Bildungsangebot Licht ins Dunkle und die Phototaxis einer jeden Person in Schwung bringen. Und wenn doch schon bekannt, dann wird's trotzdem garantiert fröhlich zugehen! 😉 🍄 ☀️ 🧫<sup><br/>
 
-During my internship, I spearheaded the company's first-ever "Innovation Lab" program, where I mentored junior interns and coordinated weekly brainstorming sessions. This initiative resulted in three patent-pending solutions and garnered attention from senior management. The program has since been adopted as a permanent fixture in the company's internship structure.
+Gemeinsam mit einem großartigen Team übernehme ich Aufträge von (Grund- /Berufs- /Real- /Hoch- /Mittel-) Schulen, Universitäten, Gymnasien, Kitas, Kindergärten, Privatgruppen, Freiziteinrichtungen, Seniorengruppen uvm. für Workshops und Führungen rund um Mensch, Umwelt, Naturwissenschaft und Nachhaltigkeit in verschiedenen außerschulischen Bildungseinrichtungen im Raum München. 
 
-My most significant achievement was the successful implementation of a machine learning algorithm that optimized our resource allocation system. This project not only improved resource utilization by 35% but also led to my eventual promotion to CIO. I also actively participated in community outreach programs, organizing coding workshops for local high school students and contributing to the company's STEM education initiatives.
+Klicken Sie sich doch mal durch die Internetpräsenzen des <a href= 'https://mmn-muenchen.snsb.de/fuehrungen-mehr/'> Museums Mensch und Natur</a> im Nymphenburger Schloss München und des <a href= 'https://biotopialab.snsb.de/programme/'> BIOTOPIA Labs</a> im Botanischen Garten München. <br/> 
+Ich freue mich, wenn Sie hier fündig werden! <br/> 
+Vielleicht sieht man sich! 
+
+# _
+# Induviduelle Bildungsangebote
+Sie wollen mit mir gemeinsam eine Veranstaltung planen und/oder durchführen? <br/> Ich bin sehr interessiert an neuen Ideen, Herausforderungen und Settings! <br/> Schreiben Sie mir gerne gleich jetzt eine <a href='mailto:spyingonscience@posteo.com?subject=Kontaktaufnahme%20über%20die%20Webseite%20spyingonscience.com'>E-Mail</a>. Bitte rechnen Sie mit einer Antwortdauer von bis zu 5 Werktagen (vor allem während der Geländesaison im Mai bis Oktober). 
+
+# _
+# Preise 
+Meine Preisgestaltung orientiert sich grundsätzlich an der Honorarermittlung für freie Limnologen freie Limnologen (<a href='https://limnologen.com/honorarermittlung/'>Leistungsverzeichnis für Limnologie, 2012</a>). Weiterhin lehne ich meine Preise für Führungen und Workshops an die Preise meiner vermittelnden Kooperationspartner an. 

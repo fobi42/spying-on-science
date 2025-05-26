@@ -1,19 +1,56 @@
 ---
 date: 2024-12-01T00:00:00+01:00
 draft: false
-title: "Job #3"
-jobTitle: "CIO"
-company: "Internet Affairs Inc. "
-location: "Stavanger, Norway"
-duration: "2024-now"
+title: "_"
+jobTitle: "Veranstaltungen"
+company: "Wissenschaftskommunikation & Events"
+location: "Raum München."
+duration: "2025"
+companyLogo: "images/experience/kalender.png"
 
 ---
-## 3rd job: CIO
 
-As Chief Information Officer at Internet Affairs Inc., I lead the strategic transformation of our digital infrastructure and cybersecurity initiatives. My team of 150+ IT professionals works tirelessly to protect and optimize our global network spanning 23 countries.
+# Öffentlich  
 
-During my tenure, I've spearheaded the implementation of a revolutionary blockchain-based verification system that reduced fraudulent transactions by 87% while improving processing speeds by 300%. This initiative saved the company $12M annually and earned us the prestigious "Digital Innovation Award 2024".
+* So., 18.05.2025 um 10-17:00 Uhr (München, BY)  <br/>
+<a href='https://mmn-muenchen.snsb.de/internationaler-museumstag/'>Internationaler Museums Tag im Museum Mensch und Natur</a>
 
-I'm particularly proud of our "Green Computing" program which has successfully migrated 75% of our data centers to renewable energy sources. This environmental initiative not only reduced our carbon footprint by 45% but also resulted in a 30% reduction in operational costs.
+* Mo., 09.06.2025 um xx-xx:00 Uhr (München, BY)  <br/>
+<a href= 'https://kiks-muenchen.de/programm/kiks-festival'>KIKS-Festival</a>
 
-In my role, I also serve as a member of the executive board, helping shape the company's long-term technology vision and ensuring our IT strategy aligns perfectly with our business objectives. Currently leading an ambitious AI integration project that promises to revolutionize our customer service capabilities.
+* Sa., 05.07.25 um xx-xx:00 Uhr (München, BY)  <br/>
+<a href='https://stadtteilwochen-muenchen.de/'>Stadtteilwochen München (Neuhausen-Nymphenburg)</a>
+
+* Fr., 04.07.25 um 15-16:00 Uhr (München, BY)  <br/>
+<a href='https://mmn-muenchen.snsb.de/familienfuehrungen/'>Familienführung im Museum Mensch und Natur: "Der Wald als Lebensraum" </a>
+
+* Sa., 19.07.2025 um 15:00-18:00  (München, BY)  <br/>
+<a href='https://stadt.muenchen.de/infos/serenade-im-park.html'>Serenade im Park: Kinder- & Mitmachprogramm</a>
+
+* Fr., 29.08.25 um 15-16:00 Uhr (München, BY)  <br/>
+<a href= 'https://mmn-muenchen.snsb.de/familienfuehrungen/'>Familienführung im Museum Mensch und Natur: "Besuch des Erdbebensimulators"</a>
+
+* Fr., 31.10.25 um 15-16:00 Uhr (München, BY)  <br/>
+<a href= 'https://mmn-muenchen.snsb.de/familienfuehrungen/'>Familienführung im Museum Mensch und Natur: "Faszination Fledermaus"</a>
+
+# _
+# Voranmeldung erforderlich 
+
+* Di., 01.07.2025 um 09-16:00  (München, BY)  
+Lehrerfortbildung Grundschule 2025 – Wasserthemen spannend vermitteln  
+<a href= 'https://mmn-muenchen.snsb.de/lehrerfortbildung-grundschule-2025-wasserthemen-spannend-vermitteln/'>Infos & Veranstaltungsort</a>
+<br/>
+<a href= 'https://fibs.alp.dillingen.de/lehrgangssuche?container_id=409789'>Anmeldung bis 23.06.25 hier</a>
+
+* Do., 03.07.2025 um xx-xx:00 Uhr (München, BY)<br/>
+Blinden- und Sehbehinderten Workshop<br/>
+Weitere Infos folgen
+
+* Di., 08.07.2025 um xx-xx:00 Uhr (München, BY)<br/>
+Blinden- und Sehbehinderten Workshop<br/>
+Weitere Infos folgen
+
+# _
+# Archiv (bis einschl. 2024)
+Hier im Archiv sind alle vergangenen Veranstaltungen  der letzten Monate und Jahre für Interessierte zum stöbern chronologisch aufgelistet. Diese Liste erhebt keinen Anspruch auf vollständigkeit, sondern soll einfach einen Einblick in meine bisherige Arbeit gewähren. <br/>
+<a href= 'https://linktr.ee/spying.on.science.with.akw'>> Zum Archiv (Linktree)</a>

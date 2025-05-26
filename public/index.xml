@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title/><link>http://localhost:1313/</link><description>Recent content on</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 28 Feb 2025 08:05:05 +0100</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Add Custom Icons to the Adritian Theme</title><link>http://localhost:1313/blog/new-icons/</link><pubDate>Fri, 28 Feb 2025 08:05:05 +0100</pubDate><guid>http://localhost:1313/blog/new-icons/</guid><description>&lt;h1 id="how-to-add-custom-icons-to-the-adritian-theme">How to Add Custom Icons to the Adritian Theme&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title/><link>http://localhost:1313/</link><description>Recent content on</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 19 May 2025 14:56:00 +0100</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Add Custom Icons to the Adritian Theme</title><link>http://localhost:1313/blog/new-icons/</link><pubDate>Fri, 28 Feb 2025 08:05:05 +0100</pubDate><guid>http://localhost:1313/blog/new-icons/</guid><description>&lt;h1 id="how-to-add-custom-icons-to-the-adritian-theme">How to Add Custom Icons to the Adritian Theme&lt;/h1>
 
 
 
@@ -359,7 +359,13 @@
 &lt;/a>
  &lt;code>tiktok&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;p>You can use them in several ways.&lt;/p></description></item><item><title>TUM MUC</title><link>http://localhost:1313/education/tum/</link><pubDate>Tue, 25 Feb 2025 09:53:42 +0200</pubDate><guid>http://localhost:1313/education/tum/</guid><description/></item><item><title>Theme shortcodes</title><link>http://localhost:1313/blog/shortcodes/</link><pubDate>Fri, 14 Feb 2025 14:38:33 +0200</pubDate><guid>http://localhost:1313/blog/shortcodes/</guid><description>&lt;p>Shortcodes are a convenient &lt;a href="https://gohugo.io/content-management/shortcodes/">functionality of Hugo&lt;/a>, allowing you to embed templates or layouts within other content.&lt;/p>
+&lt;p>You can use them in several ways.&lt;/p></description></item><item><title>Motivation</title><link>http://localhost:1313/motivation/motivation/</link><pubDate>Mon, 19 May 2025 14:56:00 +0100</pubDate><guid>http://localhost:1313/motivation/motivation/</guid><description>&lt;blockquote>
+&lt;p>ℹ Ein tiefergehender Umriss &lt;strong>meiner Vita und meiner Qualifikationen&lt;/strong> kann auf meinem &lt;a href="https://www.linkedin.com/in/andrea-koplitz-weissgerber/">LinkedIn-Profil&lt;/a> abgerufen werden.&lt;/p>&lt;/blockquote>
+&lt;blockquote>
+&lt;p>📩 &lt;strong>Sie wollen direkt mit mir Kontaktaufnehmen?&lt;/strong> Nur zu! Ich freue mich über eine &lt;a href="mailto:spyingonscience@posteo.com?subject=Kontaktaufnahme%20%c3%bcber%20die%20Webseite%20spyingonscience.com">E-Mail&lt;/a>.&lt;br>
+Bitte rechnen Sie mit einer Antwortdauer von bis zu 5 Werktagen (vor allem während der Geländesaison im Mai-Oktober).&lt;/p>&lt;/blockquote>
+&lt;blockquote>
+&lt;p>👀 Sie sind immer noch hier? Das freut mich sehr! Ich nehme an Sie wollen also erstmal noch &lt;strong>mehr über meine Person, Passion und Mission wissen&lt;/strong>.&lt;/p></description></item><item><title>tum</title><link>http://localhost:1313/education/tum/</link><pubDate>Tue, 25 Feb 2025 09:53:42 +0200</pubDate><guid>http://localhost:1313/education/tum/</guid><description/></item><item><title>Theme shortcodes</title><link>http://localhost:1313/blog/shortcodes/</link><pubDate>Fri, 14 Feb 2025 14:38:33 +0200</pubDate><guid>http://localhost:1313/blog/shortcodes/</guid><description>&lt;p>Shortcodes are a convenient &lt;a href="https://gohugo.io/content-management/shortcodes/">functionality of Hugo&lt;/a>, allowing you to embed templates or layouts within other content.&lt;/p>
 &lt;p>Some of the example built-in shortcodes are Instagram posts, YouTube videos, QR codes, etc. You can find &lt;a href="https://gohugo.io/content-management/shortcodes/#embedded">the full list in the official docs&lt;/a>.&lt;/p>
 &lt;p>The theme provides custom shortcodes to allow you to customize your landing page as you want:&lt;/p>
 &lt;ul>
@@ -523,7 +529,7 @@ target = &amp;#34;assets/css/bootstrap-print.css&amp;#34;
 
 
  [languages.es]
- disabled = false
+ disabled = true
  languageCode = &amp;#39;es&amp;#39;
  languageDirection = &amp;#39;ltr&amp;#39;
  languageName = &amp;#39;Español&amp;#39;
@@ -569,7 +575,7 @@ target = &amp;#34;assets/css/bootstrap-print.css&amp;#34;
  weight = 4
 
  [languages.fr]
- disabled = false
+ disabled = true
  languageCode = &amp;#39;fr&amp;#39;
  languageDirection = &amp;#39;ltr&amp;#39;
  languageName = &amp;#39;Français&amp;#39;
@@ -672,34 +678,31 @@ listStyle = &amp;#34;summary&amp;#34; # options: simple, summary
 &lt;/details>
 &lt;h3 id="traditional-installation-as-git-submodule">Traditional Installation (as git submodule)&lt;/h3>
 &lt;p>If you prefer not to use Hugo Modules, you can still install the theme as a git submodule.
-The guide is very similar to &lt;a href="https://gohugo.io/getting-started/quick-start/#create-a-site">official &amp;ldquo;Quick Start&amp;rdquo;&lt;/a>, just changing the theme URL in the &lt;code>git submodule add&lt;/code> command:&lt;/p></description></item><item><title>Job #3</title><link>http://localhost:1313/experience/job-3/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0100</pubDate><guid>http://localhost:1313/experience/job-3/</guid><description>&lt;h2 id="3rd-job-cio">3rd job: CIO&lt;/h2>
-&lt;p>As Chief Information Officer at Internet Affairs Inc., I lead the strategic transformation of our digital infrastructure and cybersecurity initiatives. My team of 150+ IT professionals works tirelessly to protect and optimize our global network spanning 23 countries.&lt;/p>
-&lt;p>During my tenure, I&amp;rsquo;ve spearheaded the implementation of a revolutionary blockchain-based verification system that reduced fraudulent transactions by 87% while improving processing speeds by 300%. This initiative saved the company $12M annually and earned us the prestigious &amp;ldquo;Digital Innovation Award 2024&amp;rdquo;.&lt;/p></description></item><item><title>Puesto #3</title><link>http://localhost:1313/experience/job-3.es/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0100</pubDate><guid>http://localhost:1313/experience/job-3.es/</guid><description>&lt;h2 id="3rd-job-gerente-general">3rd job: Gerente General&lt;/h2>
-&lt;p>Con una traducción al español, se puede llegar a cualquier parte.&lt;/p></description></item><item><title>Graziella Nutella</title><link>http://localhost:1313/testimonial/graziella-nutella/</link><pubDate>Mon, 25 Nov 2024 21:53:18 +0100</pubDate><guid>http://localhost:1313/testimonial/graziella-nutella/</guid><description>&lt;p>The content of this section comes from the &lt;code>content/testimonial&lt;/code> folder contents. This that you see is in &lt;code>content/testimonial/graziella-nutella.md&lt;/code>.&lt;/p>
-&lt;p>You can also use parameters for configuration:&lt;/p>
-&lt;pre tabindex="0">&lt;code>name: &amp;#34;Nutting Hill&amp;#34; # place/city/country for the experience. Fill-in.
-position: &amp;#34;Nutcracker&amp;#34; # from-to, for example &amp;#34;2022-2024&amp;#34;. Fill-in.
-
-params:
- image:
- src: &amp;#34;images/testimonials/testimonial1.png&amp;#34; # example: &amp;#34;images/clients/asgardia.png&amp;#34;
- scale: 0.5
-&lt;/code>&lt;/pre></description></item><item><title>Dana Oneal</title><link>http://localhost:1313/testimonial/dana-oneal/</link><pubDate>Mon, 25 Nov 2024 21:50:45 +0100</pubDate><guid>http://localhost:1313/testimonial/dana-oneal/</guid><description>&lt;p>I had the pleasure of working with this freelancer on several projects, and their performance has been nothing short of outstanding. They bring a high level of expertise, creativity, and dedication to every task. Their ability to understand project requirements and deliver exceptional results on time is truly impressive. They are a reliable and proactive professional who consistently exceeds expectations. I highly recommend this freelancer to anyone seeking top-notch skills and a collaborative partner.&lt;/p></description></item><item><title>Ferdinand Shermand</title><link>http://localhost:1313/testimonial/ferdinand-shermand/</link><pubDate>Mon, 25 Nov 2024 21:30:46 +0100</pubDate><guid>http://localhost:1313/testimonial/ferdinand-shermand/</guid><description>&lt;p>Working with this colleague has been an absolute pleasure. Their dedication, professionalism, and positive attitude make them an invaluable asset to our team. They consistently go above and beyond to ensure that projects are completed on time and to the highest standard. Their ability to collaborate effectively and support their colleagues is truly commendable. I am continually impressed by their innovative thinking and problem-solving skills. This colleague is not just a team member but a true inspiration and a driving force behind our team’s success.&lt;/p></description></item><item><title>Ztos</title><link>http://localhost:1313/client-work/ztos/</link><pubDate>Sun, 25 Aug 2024 10:23:39 +0200</pubDate><guid>http://localhost:1313/client-work/ztos/</guid><description/></item><item><title>Zoo</title><link>http://localhost:1313/client-work/zoo/</link><pubDate>Sun, 25 Aug 2024 10:23:08 +0200</pubDate><guid>http://localhost:1313/client-work/zoo/</guid><description/></item><item><title>Kanba</title><link>http://localhost:1313/client-work/kanba/</link><pubDate>Sun, 25 Aug 2024 10:22:34 +0200</pubDate><guid>http://localhost:1313/client-work/kanba/</guid><description/></item><item><title>Goldline</title><link>http://localhost:1313/client-work/goldline/</link><pubDate>Sun, 25 Aug 2024 10:21:48 +0200</pubDate><guid>http://localhost:1313/client-work/goldline/</guid><description/></item><item><title>Earth 2.0</title><link>http://localhost:1313/client-work/earth2.0/</link><pubDate>Sun, 25 Aug 2024 10:17:12 +0200</pubDate><guid>http://localhost:1313/client-work/earth2.0/</guid><description/></item><item><title>Asgardia</title><link>http://localhost:1313/client-work/asgardia/</link><pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate><guid>http://localhost:1313/client-work/asgardia/</guid><description/></item><item><title>High School of Hard Knocks</title><link>http://localhost:1313/education/high-school/</link><pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate><guid>http://localhost:1313/education/high-school/</guid><description/></item><item><title>Radity Finance - UI Kit</title><link>http://localhost:1313/projects/radity-finance-uikit/</link><pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate><guid>http://localhost:1313/projects/radity-finance-uikit/</guid><description>&lt;p>We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech.&lt;/p></description></item><item><title>Robo Advisor</title><link>http://localhost:1313/projects/robo-advisor/</link><pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate><guid>http://localhost:1313/projects/robo-advisor/</guid><description>&lt;p>Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard.&lt;/p></description></item><item><title>Swiss Fintech Website</title><link>http://localhost:1313/projects/swiss-fintech/</link><pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate><guid>http://localhost:1313/projects/swiss-fintech/</guid><description>&lt;p>Here you can add additional context, description, links, etc.
-The content you see here comes from the contents of the &lt;code>content/projects&lt;/code> folder.&lt;/p>
-&lt;p>This project is in the file &lt;code>projects/swiss-fintech.md&lt;/code>.&lt;/p>
-&lt;p>In the markdown file frontmatter you can also define additional parameters, such as the link:&lt;/p>
-&lt;pre tabindex="0">&lt;code>link: &amp;#34;https://www.adrianmoreno.info&amp;#34; # optional URL to link the logo to
-
-params:
- button:
- icon: &amp;#34;icon-arrow-right&amp;#34;
- btnText: &amp;#34;Case Study&amp;#34;
- URL: &amp;#34;https://www.adrianmoreno.info&amp;#34;
- image: 
- src: &amp;#34;images/works/swissfintech.jpg&amp;#34;
- scale: 0.5
- 
-&lt;/code>&lt;/pre></description></item><item><title>University of Life</title><link>http://localhost:1313/education/university-of-life/</link><pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate><guid>http://localhost:1313/education/university-of-life/</guid><description/></item><item><title>Sample content: featured image</title><link>http://localhost:1313/blog/sample-3/</link><pubDate>Mon, 24 Jun 2024 14:38:33 +0200</pubDate><guid>http://localhost:1313/blog/sample-3/</guid><description>&lt;p>Sample blog content. Like a lorem ipsum but saying something more interesting.&lt;/p>
+The guide is very similar to &lt;a href="https://gohugo.io/getting-started/quick-start/#create-a-site">official &amp;ldquo;Quick Start&amp;rdquo;&lt;/a>, just changing the theme URL in the &lt;code>git submodule add&lt;/code> command:&lt;/p></description></item><item><title>_</title><link>http://localhost:1313/experience/job-3/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0100</pubDate><guid>http://localhost:1313/experience/job-3/</guid><description>&lt;h1 id="öffentlich">Öffentlich&lt;/h1>
+&lt;ul>
+&lt;li>
+&lt;p>So., 18.05.2025 um 10-17:00 Uhr (München, BY) &lt;br/>
+&lt;a href='https://mmn-muenchen.snsb.de/internationaler-museumstag/'>Internationaler Museums Tag im Museum Mensch und Natur&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Mo., 09.06.2025 um xx-xx:00 Uhr (München, BY) &lt;br/>
+&lt;a href= 'https://kiks-muenchen.de/programm/kiks-festival'>KIKS-Festival&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Sa., 05.07.25 um xx-xx:00 Uhr (München, BY) &lt;br/>
+&lt;a href='https://stadtteilwochen-muenchen.de/'>Stadtteilwochen München (Neuhausen-Nymphenburg)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Fr., 04.07.25 um 15-16:00 Uhr (München, BY) &lt;br/>
+&lt;a href='https://mmn-muenchen.snsb.de/familienfuehrungen/'>Familienführung im Museum Mensch und Natur: &amp;ldquo;Der Wald als Lebensraum&amp;rdquo; &lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Sa., 19.07.2025 um 15:00-18:00 (München, BY) &lt;br/>
+&lt;a href='https://stadt.muenchen.de/infos/serenade-im-park.html'>Serenade im Park: Kinder- &amp;amp; Mitmachprogramm&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Fr., 29.08.25 um 15-16:00 Uhr (München, BY) &lt;br/>
+&lt;a href= 'https://mmn-muenchen.snsb.de/familienfuehrungen/'>Familienführung im Museum Mensch und Natur: &amp;ldquo;Besuch des Erdbebensimulators&amp;rdquo;&lt;/a>&lt;/p></description></item><item><title>Dana Oneal</title><link>http://localhost:1313/testimonial/dana-oneal/</link><pubDate>Mon, 25 Nov 2024 21:50:45 +0100</pubDate><guid>http://localhost:1313/testimonial/dana-oneal/</guid><description>&lt;p>I had the pleasure of working with this freelancer on several projects, and their performance has been nothing short of outstanding. They bring a high level of expertise, creativity, and dedication to every task. Their ability to understand project requirements and deliver exceptional results on time is truly impressive. They are a reliable and proactive professional who consistently exceeds expectations. I highly recommend this freelancer to anyone seeking top-notch skills and a collaborative partner.&lt;/p></description></item><item><title>Goldline</title><link>http://localhost:1313/client-work/goldline/</link><pubDate>Sun, 25 Aug 2024 10:21:48 +0200</pubDate><guid>http://localhost:1313/client-work/goldline/</guid><description/></item><item><title>High School of Hard Knocks</title><link>http://localhost:1313/education/high-school/</link><pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate><guid>http://localhost:1313/education/high-school/</guid><description/></item><item><title>lmu</title><link>http://localhost:1313/education/lmu/</link><pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate><guid>http://localhost:1313/education/lmu/</guid><description/></item><item><title>Radity Finance - UI Kit</title><link>http://localhost:1313/projects/radity-finance-uikit/</link><pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate><guid>http://localhost:1313/projects/radity-finance-uikit/</guid><description>&lt;p>We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech.&lt;/p></description></item><item><title>Unipd</title><link>http://localhost:1313/education/unipd/</link><pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate><guid>http://localhost:1313/education/unipd/</guid><description/></item><item><title>University of Life</title><link>http://localhost:1313/education/university-of-life/</link><pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate><guid>http://localhost:1313/education/university-of-life/</guid><description/></item><item><title>Sample content: featured image</title><link>http://localhost:1313/blog/sample-3/</link><pubDate>Mon, 24 Jun 2024 14:38:33 +0200</pubDate><guid>http://localhost:1313/blog/sample-3/</guid><description>&lt;p>Sample blog content. Like a lorem ipsum but saying something more interesting.&lt;/p>
 &lt;p>&lt;img src="http://localhost:1313/img/blog/feature-sample-3.png" alt="Example image">&lt;/p>
 &lt;p>Welcome to the world of &amp;ldquo;Content Ipsum,&amp;rdquo; the fresh alternative to the classic lorem ipsum. It&amp;rsquo;s the perfect blend for designers and writers who crave a dash of creativity and meaning in their placeholder text. Imagine a text that not only fills the space but also sparks the imagination, a text that weaves tales of innovation, inspiration, and the endless possibilities that creativity brings.&lt;/p></description></item><item><title>Sample content: formatting styles</title><link>http://localhost:1313/blog/sample/</link><pubDate>Fri, 21 Jun 2024 14:38:33 +0200</pubDate><guid>http://localhost:1313/blog/sample/</guid><description>&lt;p>Sample blog content. Like a lorem ipsum but saying something more interesting.&lt;/p>
 &lt;p>We will show some content that is supported:&lt;/p>
@@ -725,13 +728,12 @@ params:
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>_You **can** combine them_
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;em>This text will be italic&lt;/em>&lt;/p></description></item><item><title>Trabajo #3</title><link>http://localhost:1313/experience/job-3.es-copy/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0100</pubDate><guid>http://localhost:1313/experience/job-3.es-copy/</guid><description>&lt;h2 id="arreglando-el-mundo-un-byte-a-la-vez">Arreglando el mundo, un byte a la vez&lt;/h2>
-&lt;p>¡Adquisición hostil - ¿quién es el jefe ahora?!&lt;/p></description></item><item><title>Job #2</title><link>http://localhost:1313/experience/job-2/</link><pubDate>Fri, 01 Dec 2023 00:00:00 +0100</pubDate><guid>http://localhost:1313/experience/job-2/</guid><description>&lt;h2 id="2nd-job-chief-intern">2nd job: Chief Intern&lt;/h2>
-&lt;p>As Chief Intern at Internet Affairs Inc., I led several key initiatives that helped streamline our internal processes and boost productivity. Working closely with cross-functional teams, I developed and implemented an automated documentation system that reduced report generation time by 65% and improved accuracy by 40%.&lt;/p>
-&lt;p>During my internship, I spearheaded the company&amp;rsquo;s first-ever &amp;ldquo;Innovation Lab&amp;rdquo; program, where I mentored junior interns and coordinated weekly brainstorming sessions. This initiative resulted in three patent-pending solutions and garnered attention from senior management. The program has since been adopted as a permanent fixture in the company&amp;rsquo;s internship structure.&lt;/p></description></item><item><title>Blog de Demostración</title><link>http://localhost:1313/blog/_index.es/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/blog/_index.es/</guid><description>&lt;p>Bienvenido al blog de demostración. Puedes personalizar (o eliminar) esta sección en el archivo &lt;code>_index.md&lt;/code> de la carpeta &lt;code>blog&lt;/code>. Puedes &lt;a href="https://gohugo.io/content-management/page-bundles/">leer sobre cómo organizar contenido en Hugo&lt;/a> en la documentación oficial.&lt;/p>
+&lt;p>¡Adquisición hostil - ¿quién es el jefe ahora?!&lt;/p></description></item><item><title>_</title><link>http://localhost:1313/experience/job-2/</link><pubDate>Fri, 01 Dec 2023 00:00:00 +0100</pubDate><guid>http://localhost:1313/experience/job-2/</guid><description>&lt;h1 id="angebote-in-außerschulischen-bildungseinrichtungen">Angebote in außerschulischen Bildungseinrichtungen&lt;/h1>
+&lt;p>&amp;hellip; Augen die Ungeahntes erblicken und fragende Münder in Gesichtern von Köpfen, die Neues für sich entdecken, von Menschen, die Zusammenhänge begreifen und Diskussionen über das gesammelte Wissen anzetteln: &lt;strong>Das sind für mich die Sporen der Fruchtkörper meines Bildungsarbeit-Myzels!&lt;/strong> &lt;br/>&lt;/p>
+&lt;p>&lt;sup>Diese Bio-Nerd-Referenz nicht kapiert? Kein Problem, da kann ich gerne durch mein Bildungsangebot Licht ins Dunkle und die Phototaxis einer jeden Person in Schwung bringen. Und wenn doch schon bekannt, dann wird&amp;rsquo;s trotzdem garantiert fröhlich zugehen! 😉 🍄 ☀️ 🧫&lt;sup>&lt;br/>&lt;/p></description></item><item><title>Blog de Demostración</title><link>http://localhost:1313/blog/_index.es/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/blog/_index.es/</guid><description>&lt;p>Bienvenido al blog de demostración. Puedes personalizar (o eliminar) esta sección en el archivo &lt;code>_index.md&lt;/code> de la carpeta &lt;code>blog&lt;/code>. Puedes &lt;a href="https://gohugo.io/content-management/page-bundles/">leer sobre cómo organizar contenido en Hugo&lt;/a> en la documentación oficial.&lt;/p>
 &lt;p>Los artículos a continuación se encuentran en la misma carpeta (&lt;code>blog/&lt;/code>) y pueden estar en &lt;a href="https://gohugo.io/content-management/formats/">cualesquiera de los formatos que Hugo soporta&lt;/a> (Markdown, HTML, Emacs Org Mode, AsciiDoc, Pandoc o reStructuredText).&lt;/p></description></item><item><title>Trabajo #2</title><link>http://localhost:1313/experience/job-2.es/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0100</pubDate><guid>http://localhost:1313/experience/job-2.es/</guid><description>&lt;h2 id="arreglando-el-mundo-un-byte-a-la-vez">Arreglando el mundo, un byte a la vez&lt;/h2>
-&lt;p>Continuando la misión.&lt;/p></description></item><item><title>Job #1</title><link>http://localhost:1313/experience/job-1/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0100</pubDate><guid>http://localhost:1313/experience/job-1/</guid><description>&lt;h2 id="1st-job-junior-intern">1st job: Junior Intern&lt;/h2>
-&lt;p>The beginning of a great career. As a Junior Intern at Internet Affairs Inc., I had the opportunity to work on various projects that helped me develop my technical and professional skills. Working alongside experienced developers, I contributed to the company&amp;rsquo;s core web applications and learned industry best practices in software development.&lt;/p>
-&lt;p>During my internship, I took the initiative to create an internal documentation wiki that improved knowledge sharing across teams. This project taught me valuable lessons in technical writing and collaboration. I also participated in code reviews and daily stand-ups, gaining firsthand experience in agile development methodologies.&lt;/p></description></item><item><title>Trabajo #1</title><link>http://localhost:1313/experience/job-1.es/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0100</pubDate><guid>http://localhost:1313/experience/job-1.es/</guid><description>&lt;h2 id="arreglando-el-mundo-un-byte-a-la-vez">Arreglando el mundo, un byte a la vez&lt;/h2>
+&lt;p>Continuando la misión.&lt;/p></description></item><item><title>_</title><link>http://localhost:1313/experience/job-1/</link><pubDate>Thu, 01 Dec 2022 00:00:00 +0100</pubDate><guid>http://localhost:1313/experience/job-1/</guid><description>&lt;h1 id="derzeitige-dienstleistungen">Derzeitige Dienstleistungen&lt;/h1>
+&lt;p>Mit großer Begeisterung etabliere ich mich im Bereich der Gewässeruntersuchung/-ökologie. Ich bilde mich auch nach meinem Studienabschluss fort und freue mich sehr über neue Chancen. &lt;br/> Informieren Sie sich gerne auf dieser Seite, ob eine Zusammenarbeit mit mir Sie überzeugt. Kontaktieren Sie mich gerne per &lt;a href='mailto:spyingonscience@posteo.com?subject=Kontaktaufnahme%20über%20die%20Webseite%20spyingonscience.com'>E-Mail&lt;/a> für allgemeine Fragen und konkrete Anfragen. Ich bin gerne behilflich und nehme mir die Zeit. Bitte rechnen Sie mit einer Antwortdauer von bis zu 5 Werktagen (vor allem während der Geländesaison im Mai bis Oktober).&lt;/p></description></item><item><title>Trabajo #1</title><link>http://localhost:1313/experience/job-1.es/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0100</pubDate><guid>http://localhost:1313/experience/job-1.es/</guid><description>&lt;h2 id="arreglando-el-mundo-un-byte-a-la-vez">Arreglando el mundo, un byte a la vez&lt;/h2>
 &lt;p>El comienzo de una gran carrera.&lt;/p></description></item><item><title>Experiencia</title><link>http://localhost:1313/experience/_index.es/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/experience/_index.es/</guid><description>&lt;p>Aquí es donde puedes destacar un poco sobre tu experiencia. Años de experiencia total, especialización, etc.&lt;/p>
 &lt;p>El contenido en esta introducción viene del archivo &lt;code>content/experience/_index.md&lt;/code>.
 Este tipo de contenido, las &amp;ldquo;páginas índice&amp;rdquo;, se denominan &amp;ldquo;branch bundles&amp;rdquo; (paquetes de rama). Puede leer más sobre &lt;a href="https://gohugo.io/content-management/sections/#template-selection">&lt;strong>secciones y paquetes&lt;/strong> en la documentación de Hugo&lt;/a>.&lt;/p>
@@ -1043,13 +1045,13 @@ Este tipo de contenido, las &amp;ldquo;páginas índice&amp;rdquo;, se denominan
  &lt;div class="showcase-section row flex-column-reverse flex-md-row rad-fade-down rad-waiting rad-animate">
  &lt;div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
  &lt;h1 class="display-1">
- Showcase section
+ 👀
  &lt;/h1>
  &lt;h2 class="display-5">
- &lt;span>Subtitle - coming from &lt;code>home.md&lt;/code>&lt;/span>
+ &lt;span>I spy with my little eye .. some &lt;strong>limnology&lt;/strong> and &lt;strong>scicomm&lt;/strong> action nearby!&lt;/span>
  &lt;/h2>
  &lt;div class="lead">
- &lt;strong>Strong&lt;/strong>, &lt;em>italic&lt;/em> and normal text. This comes from &lt;a href='https://github.com/zetxek/adritian-demo/blob/main/content/home/home.md?plain=1'>&lt;code>home.md&lt;/code>&lt;/a>, using the &lt;code>showcase-section&lt;/code> &lt;a href=''>shortcode&lt;/a>.&lt;br/>Below you can see the social links, provided by the &lt;code>platform-links&lt;/code> shortcode.
+ &lt;br/> &lt;br/> Als freiberufliche Biologin engagiere ich mich in der &lt;strong>Gewässerforschung&lt;/strong> und &lt;strong>außerschulischen Bildung&lt;/strong>. &lt;br/> &lt;br/>&lt;br/>&lt;code>Sie wollen direkt mit mir Kontaktaufnehmen?&lt;br/> Nur zu! Ich freue mich über eine &lt;a href='mailto:spyingonscience@posteo.com?subject=Kontaktaufnahme%20über%20die%20Webseite%20spyingonscience.com'>&lt;code>E-Mail&lt;/code>&lt;/a>.&lt;br/> Bitte rechnen Sie mit einer Antwortdauer von bis zu 5 Werktagen (vor allem während der Geländesaison im Mai bis Oktober).&lt;/code> 
  &lt;/div>
  
  &lt;/div>
@@ -1078,14 +1080,14 @@ Este tipo de contenido, las &amp;ldquo;páginas índice&amp;rdquo;, se denominan
  
  
 
- &lt;source srcset="http://localhost:1313/images/showcase/showcase_hu_d37b8c855bc40569.webp 1x, http://localhost:1313/images/showcase/showcase_hu_bb220d2f819b63f2.webp 2x" type="image/webp" />
- &lt;source srcset="http://localhost:1313/images/showcase/showcase_hu_36a7c350e756fdba.png 1x, http://localhost:1313/images/showcase/showcase_hu_55c9d46ab35228bc.png 2x" type="image/png">
+ &lt;source srcset="http://localhost:1313/images/showcase/spyingonscience-logo_hu_7ecac4390c25df79.webp 1x, http://localhost:1313/images/showcase/spyingonscience-logo_hu_1a7102a812ac10af.webp 2x" type="image/webp" />
+ &lt;source srcset="http://localhost:1313/images/showcase/spyingonscience-logo_hu_7ae6bf875a17515e.png 1x, http://localhost:1313/images/showcase/spyingonscience-logo_hu_90f5d229996ce2dc.png 2x" type="image/png">
 
  &lt;img
- width="790"
- height="768"
+ width="781"
+ height="781"
  class="lozad img-responsive "
- data-src="http://localhost:1313/images/showcase/showcase_hu_36a7c350e756fdba.png"
+ data-src="http://localhost:1313/images/showcase/spyingonscience-logo_hu_7ae6bf875a17515e.png"
  alt=''
  src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
  loading="lazy"
@@ -1099,208 +1101,6 @@ Este tipo de contenido, las &amp;ldquo;páginas índice&amp;rdquo;, se denominan
  &lt;/div>
  &lt;div class="col-12 inner-content">
  
-
-
-
-
-
-&lt;div class="container">
- &lt;div class="row platform-links shortcode">
- &lt;div class="col-12">
- 
- 
- &lt;a
- href="https://facebook.com/yourpage"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="square-facebook"
- >&lt;i class="icon-square-facebook">&lt;/i>
- &lt;/a>
-
- 
- 
- &lt;a
- href="https://twitter.com/yourpage"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="square-twitter"
- >&lt;i class="icon-square-twitter">&lt;/i>
- &lt;/a>
-
- 
- 
- &lt;a
- href="https://www.linkedin.com/in/adrianmoreno/"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="linkedin"
- >&lt;i class="icon-linkedin">&lt;/i>
- &lt;/a>
-
- 
- 
- &lt;a
- href="https://github.com/zetxek"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="square-github"
- >&lt;i class="icon-square-github">&lt;/i>
- &lt;/a>
-
- 
- 
- &lt;a
- href="https://twitter.com/zetxek"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="x-twitter"
- >&lt;i class="icon-x-twitter">&lt;/i>
- &lt;/a>
-
- 
- 
- &lt;a
- href="http://localhost:1313/"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="dribbble"
- >&lt;i class="icon-dribbble">&lt;/i>
- &lt;/a>
-
- 
- 
- &lt;a
- href="http://localhost:1313/"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="behance"
- >&lt;i class="icon-behance">&lt;/i>
- &lt;/a>
-
- 
- 
- &lt;a
- href="http://localhost:1313/"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="youtube"
- >&lt;i class="icon-youtube">&lt;/i>
- &lt;/a>
-
- 
- 
- &lt;a
- href="https://www.instagram.com/zetxek/"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="instagram"
- >&lt;i class="icon-instagram">&lt;/i>
- &lt;/a>
-
- 
- 
- &lt;a
- href="https://www.facebook.com/zetxek/"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="square-facebook"
- >&lt;i class="icon-square-facebook">&lt;/i>
- &lt;/a>
-
- 
- 
- &lt;a
- href="http://localhost:1313/"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="codepen"
- >&lt;i class="icon-codepen">&lt;/i>
- &lt;/a>
-
- 
- 
- &lt;a
- href="https://www.yelp.com/"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="yelp"
- >&lt;i class="icon-yelp">&lt;/i>
- &lt;/a>
-
- 
- 
- &lt;a
- href="https://www.bluesky.com/"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="bluesky"
- >&lt;i class="icon-bluesky">&lt;/i>
- &lt;/a>
-
- 
- 
- &lt;a
- href="https://www.threads.net/"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="threads"
- >&lt;i class="icon-threads">&lt;/i>
- &lt;/a>
-
- 
- 
- &lt;a
- href="https://www.adrianmoreno.info/"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="face-smile"
- >&lt;i class="icon-face-smile">&lt;/i>
- &lt;/a>
-
- 
- 
- &lt;a
- href="https://www.adrianmoreno.info/"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="user"
- >&lt;i class="icon-user">&lt;/i>
- &lt;/a>
-
- 
- 
- &lt;a
- href="https://www.adrianmoreno.info/"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="quote-left"
- >&lt;i class="icon-quote-left">&lt;/i>
- &lt;/a>
-
- 
- 
- &lt;a
- href="https://www.adrianmoreno.info/"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="cloud-arrow-down"
- >&lt;i class="icon-cloud-arrow-down">&lt;/i>
- &lt;/a>
-
- 
- 
- &lt;a
- href="https://www.adrianmoreno.info/"
- target="_blank"
- rel="noopener noreferrer"
- aria-label="square-xing"
- >&lt;i class="icon-square-xing">&lt;/i>
- &lt;/a>
-
-
-&lt;/div>
- &lt;/div>
-&lt;/div>
 
 
 
@@ -1318,6 +1118,328 @@ Este tipo de contenido, las &amp;ldquo;páginas índice&amp;rdquo;, se denominan
 &lt;/section>
 
 
+
+
+
+
+&lt;div class="container">
+ &lt;div class="row platform-links shortcode">
+ &lt;div class="col-12">
+ 
+ 
+ &lt;a
+ href="https://www.linkedin.com/in/andrea-koplitz-weissgerber/"
+ target="_blank"
+ rel="noopener noreferrer"
+ aria-label="linkedin"
+ >&lt;i class="icon-linkedin">&lt;/i>
+ &lt;/a>
+
+ 
+ 
+ &lt;a
+ href="https://www.instagram.de/spyingonscience/"
+ target="_blank"
+ rel="noopener noreferrer"
+ aria-label="instagram"
+ >&lt;i class="icon-instagram">&lt;/i>
+ &lt;/a>
+
+
+
+&lt;/div>
+ &lt;/div>
+&lt;/div>
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+
+
+&lt;section id="experience-single" class="section-experience section section--border-bottom rad-animation-group flex-grow-1">
+ &lt;div class="row flex-column-reverse flex-md-row rad-fade-down">
+ &lt;div class="experience-list col-12 col-md-6">
+ &lt;h2>
+ 
+ Aktuelles &amp;amp; Angebote
+ 
+ &lt;/h2>
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ &lt;div class="experience">
+ &lt;a href="http://localhost:1313/experience/job-3/" class="experience__link">
+ &lt;div class="experience__header">
+ 
+ 
+ 
+ &lt;img 
+ src="http://localhost:1313/images/experience/kalender_hu_355bfb9c9afc385b.webp" 
+ alt=" logo"
+ class="experience__company-logo"
+ loading="lazy"
+ />
+ 
+ &lt;div class="experience__meta">
+ &lt;div class="experience__date">2025&lt;/div>
+ &lt;div class="experience__title">Veranstaltungen&lt;/div>
+ &lt;div class="experience__company">
+ Wissenschaftskommunikation &amp;amp; Events.
+ &lt;span class="experience__location">Raum München.&lt;/span>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="experience__description d-none d-print-block">
+ &lt;h1>_&lt;/h1>
+ Öffentlich So., 18.05.2025 um 10-17:00 Uhr (München, BY) Internationaler Museums Tag im Museum Mensch und Natur
+Mo., 09.06.2025 um xx-xx:00 Uhr (München, BY) KIKS-Festival
+Sa., 05.07.25 um xx-xx:00 Uhr (München, BY) Stadtteilwochen München (Neuhausen-Nymphenburg)
+Fr., 04.07.25 um 15-16:00 Uhr (München, BY) Familienführung im Museum Mensch und Natur: &amp;ldquo;Der Wald als Lebensraum&amp;rdquo; Sa., 19.07.2025 um 15:00-18:00 (München, BY) Serenade im Park: Kinder- &amp;amp; Mitmachprogramm
+Fr., 29.08.25 um 15-16:00 Uhr (München, BY) Familienführung im Museum Mensch und Natur: &amp;ldquo;Besuch des Erdbebensimulators&amp;rdquo;
+Fr., 31.10.25 um 15-16:00 Uhr (München, BY) Familienführung im Museum Mensch und Natur: &amp;ldquo;Faszination Fledermaus&amp;rdquo;
+_ Voranmeldung erforderlich Di., 01.07.2025 um 09-16:00 (München, BY)
+Lehrerfortbildung Grundschule 2025 – Wasserthemen spannend vermitteln
+Infos &amp;amp; Veranstaltungsort Anmeldung bis 23.06.25 hier
+Do., 03.07.2025 um xx-xx:00 Uhr (München, BY) Blinden- und Sehbehinderten Workshop Weitere Infos folgen
+Di., 08.07.2025 um xx-xx:00 Uhr (München, BY) Blinden- und Sehbehinderten Workshop Weitere Infos folgen
+_ Archiv (bis einschl. 2024) Hier im Archiv sind alle vergangenen Veranstaltungen der letzten Monate und Jahre für Interessierte zum stöbern chronologisch aufgelistet. Diese Liste erhebt keinen Anspruch auf vollständigkeit, sondern soll einfach einen Einblick in meine bisherige Arbeit gewähren. &amp;gt; Zum Archiv (Linktree)
+
+ &lt;/div>
+ &lt;/div>
+ &lt;/a>
+ &lt;/div>
+ 
+ &lt;div class="experience">
+ &lt;a href="http://localhost:1313/experience/job-3.es-copy/" class="experience__link">
+ &lt;div class="experience__header">
+ 
+ 
+ &lt;div class="experience__meta">
+ &lt;div class="experience__date">2024-ahora&lt;/div>
+ &lt;div class="experience__title">Director Ejecutivo&lt;/div>
+ &lt;div class="experience__company">
+ Internet Affairs Inc..
+ &lt;span class="experience__location">Stavanger, Noruega&lt;/span>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="experience__description d-none d-print-block">
+ &lt;h1>Trabajo #3&lt;/h1>
+ Arreglando el mundo, un byte a la vez ¡Adquisición hostil - ¿quién es el jefe ahora?!
+
+ &lt;/div>
+ &lt;/div>
+ &lt;/a>
+ &lt;/div>
+ 
+ &lt;div class="experience">
+ &lt;a href="http://localhost:1313/experience/job-2/" class="experience__link">
+ &lt;div class="experience__header">
+ 
+ 
+ 
+ &lt;img 
+ src="http://localhost:1313/images/experience/scicomm_hu_fc14f211540eed50.webp" 
+ alt=" logo"
+ class="experience__company-logo"
+ loading="lazy"
+ />
+ 
+ &lt;div class="experience__meta">
+ &lt;div class="experience__date">seit 2021&lt;/div>
+ &lt;div class="experience__title">Umweltbildung&lt;/div>
+ &lt;div class="experience__company">
+ Freiberufliche Referentin.
+ &lt;span class="experience__location">Raum München.&lt;/span>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="experience__description d-none d-print-block">
+ &lt;h1>_&lt;/h1>
+ Angebote in außerschulischen Bildungseinrichtungen &amp;hellip; Augen die Ungeahntes erblicken und fragende Münder in Gesichtern von Köpfen, die Neues für sich entdecken, von Menschen, die Zusammenhänge begreifen und Diskussionen über das gesammelte Wissen anzetteln: Das sind für mich die Sporen der Fruchtkörper meines Bildungsarbeit-Myzels! Diese Bio-Nerd-Referenz nicht kapiert? Kein Problem, da kann ich gerne durch mein Bildungsangebot Licht ins Dunkle und die Phototaxis einer jeden Person in Schwung bringen. Und wenn doch schon bekannt, dann wird&amp;rsquo;s trotzdem garantiert fröhlich zugehen! 😉 🍄 ☀️ 🧫
+Gemeinsam mit einem großartigen Team übernehme ich Aufträge von (Grund- /Berufs- /Real- /Hoch- /Mittel-) Schulen, Universitäten, Gymnasien, Kitas, Kindergärten, Privatgruppen, Freiziteinrichtungen, Seniorengruppen uvm. für Workshops und Führungen rund um Mensch, Umwelt, Naturwissenschaft und Nachhaltigkeit in verschiedenen außerschulischen Bildungseinrichtungen im Raum München.
+Klicken Sie sich doch mal durch die Internetpräsenzen des Museums Mensch und Natur im Nymphenburger Schloss München und des BIOTOPIA Labs im Botanischen Garten München. Ich freue mich, wenn Sie hier fündig werden! Vielleicht sieht man sich!
+_ Induviduelle Bildungsangebote Sie wollen mit mir gemeinsam eine Veranstaltung planen und/oder durchführen? Ich bin sehr interessiert an neuen Ideen, Herausforderungen und Settings! Schreiben Sie mir gerne gleich jetzt eine E-Mail. Bitte rechnen Sie mit einer Antwortdauer von bis zu 5 Werktagen (vor allem während der Geländesaison im Mai bis Oktober).
+_ Preise Meine Preisgestaltung orientiert sich grundsätzlich an der Honorarermittlung für freie Limnologen freie Limnologen (Leistungsverzeichnis für Limnologie, 2012). Weiterhin lehne ich meine Preise für Führungen und Workshops an die Preise meiner vermittelnden Kooperationspartner an.
+
+ &lt;/div>
+ &lt;/div>
+ &lt;/a>
+ &lt;/div>
+ 
+ &lt;div class="experience">
+ &lt;a href="http://localhost:1313/experience/job-2.es/" class="experience__link">
+ &lt;div class="experience__header">
+ 
+ 
+ &lt;div class="experience__meta">
+ &lt;div class="experience__date">2023-2024&lt;/div>
+ &lt;div class="experience__title">Becario Jefe&lt;/div>
+ &lt;div class="experience__company">
+ Internet Affairs Inc..
+ &lt;span class="experience__location">Stavanger, Noruega&lt;/span>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="experience__description d-none d-print-block">
+ &lt;h1>Trabajo #2&lt;/h1>
+ Arreglando el mundo, un byte a la vez Continuando la misión.
+
+ &lt;/div>
+ &lt;/div>
+ &lt;/a>
+ &lt;/div>
+ 
+ &lt;div class="experience">
+ &lt;a href="http://localhost:1313/experience/job-1/" class="experience__link">
+ &lt;div class="experience__header">
+ 
+ 
+ 
+ &lt;img 
+ src="http://localhost:1313/images/experience/diatoms_hu_30d6d56e02fa5c9b.webp" 
+ alt=" logo"
+ class="experience__company-logo"
+ loading="lazy"
+ />
+ 
+ &lt;div class="experience__meta">
+ &lt;div class="experience__date">seit 2024&lt;/div>
+ &lt;div class="experience__title">Limnologie&lt;/div>
+ &lt;div class="experience__company">
+ Freiberufliche Biologin.
+ &lt;span class="experience__location">Von München aus deutschlandweit.&lt;/span>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="experience__description d-none d-print-block">
+ &lt;h1>_&lt;/h1>
+ Derzeitige Dienstleistungen Mit großer Begeisterung etabliere ich mich im Bereich der Gewässeruntersuchung/-ökologie. Ich bilde mich auch nach meinem Studienabschluss fort und freue mich sehr über neue Chancen. Informieren Sie sich gerne auf dieser Seite, ob eine Zusammenarbeit mit mir Sie überzeugt. Kontaktieren Sie mich gerne per E-Mail für allgemeine Fragen und konkrete Anfragen. Ich bin gerne behilflich und nehme mir die Zeit. Bitte rechnen Sie mit einer Antwortdauer von bis zu 5 Werktagen (vor allem während der Geländesaison im Mai bis Oktober).
+Assistenz in der Feldarbeit vor Ort 📍 von München ausgehend z. Zt. deutschlandweit
+Protokollführung
+Hydrophysiologische Messungen nach Einweisung in die Gerätschaften
+Unterstützung der Probenahme und Probenfixierung/-herbarisierung (Phytobenthos ohne Diatomeen und Makrophyten, Makrozoobenthos) entsprechend Einweisung in den individuellen Workflow und entspechender Handlungsanweisung des Auftrags
+Diatomeenprobenahme &amp;amp; Ethanolfixierung
+Ausrüstung:
+Federstahlpinzetten, Gummistiefel, Lupe 10x, Wathose, usw. nach Absprache Feld-Handy (Galaxy Xcover6 Pro 128GB; Android) Führerscheine B/BE und SBF-Binnen/-See ggf. privater PKW für An-/Abreise gute Laune und, wenn gewünscht, immer einen lösungsorientierten Vorschlag bei etwaigen Hürden Diatomeentaxonomie Analyse der Diatomeenzusammensetzung eines fertigen Diatomeenpräparats Mikroskop: Zeiss Axiolab5 (aplan.-achrom. Kondensor, Objektiv EC Plan-Neofluar 100x/1,3 Oil Ph3 M27, Zeiss Immersol 518 N) Kamera: Euromex Ultra HD/ 4k Stand Alone Kamera (VC.3042) Software: ImageFocusAlpha (Euromex) Aufbereitung der Taxalisten in Excel (Microsoft) entsprechend aktuellen Bundestaxalisten bzw. Zieleingabeprogrammen _ Preise Meine Preisgestaltung orientiert sich grundsätzlich an der Honorarermittlung für freie Limnologen freie Limnologen (Leistungsverzeichnis für Limnologie, 2012).
+_ Referenzen Diese chronologische Auflistung (kürzlich abgeschlossene Projekte zuerst) meiner Tätigkeiten im Bereich Gewässerökologie erhebt keinen Anspruch auf Vollständigkeit. Sie dient Ihnen als Orientierung bzgl. meiner bisherigen Arbeitserfahrung.
+Zeitraum: 01.04.24-31.05.25 Ansprechpartnerin: Dr. Uta Raeder (Alumna der Limnologischen Forschungsstation Iffeldorf) Leistung: Co-Betreuung von drei Bachelor- und drei Masterarbeiten, die die Analyse von Diatomeengesellschaften von Quellstandorten zum Inhalt haben. Zeitraum: 01.01.-31.03.25 Ansprechpartnerin: Dr. Uta Raeder (Alumna der Limnologischen Forschungsstation Iffeldorf) Leistung: Wissenschaftliche Mitarbeit zur Übergabe des Projektes „Mikroklima im Klimawandel – Refugien und Hotspots in den Bayerischen Nationalparks (MiKRoNP 2022/25): Teilprojekt (3) Quellen“. Tätigkeiten: Diatomeentaxonomie, Berichterstattung und Datenmanagement/-sortierung Zeitraum: 01.01.-31.03.25 Auftraggeber: Dr. Marcus Werum Leistung: Diatomeentaxonomie für das Projekt der HBICON „Untersuchung und Auswertung von Diatomeenproben entsprechend EG-WRRL oberhalb und unterhalb von Einleitern aus Fließgewässern Nordrhein-Westfalens“. Zeitraum: 01.01.-31.03.25 Auftraggeber: Dr. Marcus Werum Leistung: Diatomeentaxonomie für die folgenden Projekte der GefaÖ „Probenahme, Aufbereitung und Untersuchung von Kieselalgenproben am Marsbach nach EG-WRRL“, „Probenahme, Aufbereitung und Untersuchung von Kieselalgenproben am Hiffelbach nach EG-WRRL“ und „Probenahme, Aufbereitung und Untersuchung von Kieselalgenproben am Kehrgraben nach EG-WRRL&amp;quot;. Zeitraum: 01.09.-30.11.24 Auftraggeber: Dr. Marcus Werum Leistung: Diatomeentaxonomie im Projekt „Bewertung von Fließgewässern Hessens (Los 4) anhand der Diatomeen nach Phylib Bewertungsverfahren“. Zeitraum: 01.04.23-01.08.24 Ansprechpartnerin: Dr. Uta Raeder (Alumna der Limnologischen Forschungsstation Iffeldorf) Leistung: Masterarbeit im Rahmen des Projektes „Mikroklima im Klimawandel – Refugien und Hotspots in den Bayerischen Nationalparks (MiKRoNP 2022/25): Teilprojekt (3) Quellen“ Tätigkeiten: Diatomeentaxonomie, Geländearbeit, Quellkartierung, Hydrophysiologie, uvm. Zeitraum: 11.03.-28.03.24 Ansprechpartnerin: Dr. Uta Raeder (Alumna der Limnologischen Forschungsstation Iffeldorf) Leistung: Leitung des dreiwöchigen Intensivkurses „Bioindikation mit Diatomeen und Rasterelektronenmikroskopie“ für Studierende des Studiengangs M.Sc. Biologie. Zeitraum: 01.05.22-30.09.22 Ansprechpartnerin: Dr. Uta Raeder (Alumna der Limnologischen Forschungsstation Iffeldorf) Leistung: Projektarbeit für die „Limnologische Untersuchung der Teiche des Campeon; Mai 2022; Chemische und physikalische Parameter sowie Kieselalgen (Diatomeen)“ Tätigkeiten: Diatomeentaxonomie, Geländearbeit, Hydrophysiologie und Berichterstattung. noch ergänzen: Feldarbeit Manu RLP 1 &amp;amp; 2 2024; Feldarbeit Donau 24/25; Feldarbeit Matthias 2024 Tauberthal
+
+ &lt;/div>
+ &lt;/div>
+ &lt;/a>
+ &lt;/div>
+ 
+ &lt;div class="experience">
+ &lt;a href="http://localhost:1313/experience/job-1.es/" class="experience__link">
+ &lt;div class="experience__header">
+ 
+ 
+ &lt;div class="experience__meta">
+ &lt;div class="experience__date">2022-2024&lt;/div>
+ &lt;div class="experience__title">Becario Junior&lt;/div>
+ &lt;div class="experience__company">
+ Internet Affairs Inc..
+ &lt;span class="experience__location">Stavanger, Noruega&lt;/span>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="experience__description d-none d-print-block">
+ &lt;h1>Trabajo #1&lt;/h1>
+ Arreglando el mundo, un byte a la vez El comienzo de una gran carrera.
+
+ &lt;/div>
+ &lt;/div>
+ &lt;/a>
+ &lt;/div>
+ 
+
+ 
+ &lt;div class="all-experience-container">
+ 
+ &lt;em>And 1 more&lt;/em>&lt;br />
+ &lt;a href="http://localhost:1313/experience" class="btn btn-primary btn-all-experience">
+ &lt;i class="">&lt;/i>
+ View all
+ &lt;/a>
+ &lt;/div>
+ 
+ &lt;/div>
+ &lt;div class="experience-description col-12 col-md-6">
+ 
+ 
+
+
+
+
+
+
+
+
+
+&lt;div class="container-experience">
+ &lt;div class="row">
+ &lt;h2>_&lt;/h2>
+ &lt;div class="lead">🤝 Unter den aktuellen Veranstaltungen, bei denen ich mitwirke, finden Sie u. A. auch öffentliche Termine wo Sie mich persönlich kennenlernen können. Viele der Veranstaltungen können dank meinen Partnerinstitutionen oft zu einem geringen Beitrag oder ganz kostenlos besucht werden! Informieren Sie sich, es lohnt sich! &lt;br/>&lt;br/>💡 Naturwissenschaftliche Inhalte direkt an den Mensch zu bringen und dadurch nachhaltig Umweltkompetenz zu vermitteln, zu fördern und zu stärken ist mir ein besonderes Anliegen. In die Tat setzte ich dies durch mein Mitwirken bei verschiedenen Events um.&lt;br/>&lt;br/>🔬 Ich bearbeite als Limnologin im Rahmen meiner wissenschaftlichen Arbeit Projekte zu den Stichworten Limnologie, Feldarbeit, Mikroskopie und Diatomeen. Informieren Sie sich gerne auf dieser Seite, ob eine Zusammenarbeit mit mir Sie überzeugt. &lt;/div>
+ &lt;/div>
+
+ &lt;div class="row">
+ 
+ &lt;div class="col-12 col-lg-4">
+ &lt;a
+ href='https://www.linkedin.com/in/adrianmoreno/'
+ class="btn btn-primary btn-block w-100"
+ target="_blank"
+ rel="noopener noreferrer"
+ >
+ 
+ LinkedIn
+ &lt;i class="icon-arrow-right">&lt;/i>
+ &lt;/a>
+ &lt;/div>
+ 
+
+ 
+ &lt;div class="col-12 col-lg-4">
+ &lt;a
+ href='http://localhost:1313/img/general/user-smile-fill.svg'
+ class="btn btn-frameless w-100"
+ target="_blank"
+ rel="noopener noreferrer"
+ >
+ 
+ Download resume
+ &lt;/a>
+ &lt;/div>
+ 
+
+ 
+ &lt;div class="col-12 col-lg-4">
+ &lt;a
+ href='http://localhost:1313/experience'
+ class="btn btn-frameless w-100"
+ rel="noopener noreferrer"
+ >
+ 
+ View all
+ &lt;/a>
+ &lt;/div>
+ 
+ &lt;/div>
+&lt;/div>
+
+ &lt;/div>
+ &lt;/div>
+&lt;/section>
 
 
 
@@ -1358,14 +1480,14 @@ Este tipo de contenido, las &amp;ldquo;páginas índice&amp;rdquo;, se denominan
  
  
 
- &lt;source srcset="http://localhost:1313/images/about/user-picture_hu_2f52adf1036cedb3.webp 1x, http://localhost:1313/images/about/user-picture_hu_d54a2b04e5adc1b7.webp 2x" type="image/webp" />
- &lt;source srcset="http://localhost:1313/images/about/user-picture_hu_d9e9c9f4ef07df5a.png 1x, http://localhost:1313/images/about/user-picture_hu_97093cd7b236a5f0.png 2x" type="image/png">
+ &lt;source srcset="http://localhost:1313/images/about/user-picture-1_hu_d36a1894f4cbc765.webp 1x, http://localhost:1313/images/about/user-picture-1_hu_99826e3d7b92e492.webp 2x" type="image/webp" />
+ &lt;source srcset="http://localhost:1313/images/about/user-picture-1_hu_14263fc9559eec30.png 1x, http://localhost:1313/images/about/user-picture-1_hu_c6b11a100de1647f.png 2x" type="image/png">
 
  &lt;img
- width="561"
+ width="535"
  height="535"
  class="lozad img-responsive image-left-overflow"
- data-src="http://localhost:1313/images/about/user-picture_hu_d9e9c9f4ef07df5a.png"
+ data-src="http://localhost:1313/images/about/user-picture-1_hu_14263fc9559eec30.png"
  alt=''
  src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
  loading="lazy"
@@ -1375,14 +1497,14 @@ Este tipo de contenido, las &amp;ldquo;páginas índice&amp;rdquo;, se denominan
 
  &lt;/div>
  &lt;div class="col-12 col-md-6 my-auto">
- &lt;h1>About Kiko&lt;/h1>
+ &lt;h1>Über meine Person, Passion und Mission&lt;/h1>
  &lt;div class="about-me content lead">
- This content is using the &lt;code>about-section&lt;/code> shortcode. &lt;br/>You can write &lt;code>HTML&lt;/code>, as long as you &lt;em>wrap it&lt;/em> accordingly. 
+ Seite muss noch anders verlinkt werden 
  &lt;/div>
  
  &lt;a href="http://localhost:1313/skills" target="_blank" class="btn btn-primary">
  &lt;i class="icon-user">&lt;/i>
- Check my skills
+ konkretere Informationen
  &lt;/a>
  
  &lt;/div>
@@ -1400,14 +1522,14 @@ Este tipo de contenido, las &amp;ldquo;páginas índice&amp;rdquo;, se denominan
  &lt;div class="container-education">
  &lt;div class="row rad-fade-down">
  &lt;div class="col-12">
- &lt;h2>Formal Education (education-list)&lt;/h2>
+ &lt;h2>Berufsausbildung&lt;/h2>
  &lt;div class="row pt-2 pt-md-4">
  
  &lt;div class="col-12 col-sm-6 mb-4 mb-sm-0">
  &lt;div class="education">
  &lt;div class="education__date">2020-2024&lt;/div>
- &lt;div class="education__title">TUM&lt;/div>
- &lt;div class="education__degree">Bachelor of Applied Science (BASc), Electrical Engineering&lt;/div>
+ &lt;div class="education__title">Technische Universität München&lt;/div>
+ &lt;div class="education__degree">Master of Science (M. Sc.), Biologie&lt;/div>
  &lt;/div>
  &lt;/div>
  
@@ -1416,6 +1538,22 @@ Este tipo de contenido, las &amp;ldquo;páginas índice&amp;rdquo;, se denominan
  &lt;div class="education__date">2009-2012&lt;/div>
  &lt;div class="education__title">High School of Hard Knocks&lt;/div>
  &lt;div class="education__degree">High School Diploma, Sciences, Math, Computer &amp;amp; Business Studies&lt;/div>
+ &lt;/div>
+ &lt;/div>
+ 
+ &lt;div class="col-12 col-sm-6 mb-4 mb-sm-0">
+ &lt;div class="education">
+ &lt;div class="education__date">2016-2020&lt;/div>
+ &lt;div class="education__title">Ludwig-Maximilians-Universität München&lt;/div>
+ &lt;div class="education__degree">Bachelor of Science (B. Sc.), Biologie&lt;/div>
+ &lt;/div>
+ &lt;/div>
+ 
+ &lt;div class="col-12 col-sm-6 mb-4 mb-sm-0">
+ &lt;div class="education">
+ &lt;div class="education__date">2022-2023&lt;/div>
+ &lt;div class="education__title">Università degli Studi di Padova&lt;/div>
+ &lt;div class="education__degree">Ersamus, Marine Biology (M. Sc.)&lt;/div>
  &lt;/div>
  &lt;/div>
  
@@ -1437,295 +1575,98 @@ Este tipo de contenido, las &amp;ldquo;páginas índice&amp;rdquo;, se denominan
 
 
 
-
-
-
- 
- 
  
 
 
-&lt;section id="experience-single" class="section-experience section section--border-bottom rad-animation-group flex-grow-1">
- &lt;div class="row flex-column-reverse flex-md-row rad-fade-down">
- &lt;div class="experience-list col-12 col-md-6">
- &lt;h2>
- 
- My job experience (title)
- 
+&lt;div class="spacer pt-5 mt-4">&lt;/div>
+
+
+
+
+
+&lt;section id="client-and-work-section" class="section section--border-bottom">
+ &lt;div class="client-works-container">
+ &lt;h2 class="rad-animation-group rad-fade-down">
+ A selection of my work
  &lt;/h2>
+ &lt;div class="row row--padded rad-animation-group rad-fade-down">
+ &lt;div class="col-12">
+ &lt;div class="clients">
+ 
+ &lt;div class="clients__item">
+ &lt;a href="https://www.adrianmoreno.info" aria-label="Link to the client site for Goldline (opens in a new window)" target="_blank">
+
+ 
+
+
+
+
+
+
+
+
+
 
  
  
 
- 
+
 
  
-
  
 
- 
- &lt;div class="experience">
- &lt;a href="http://localhost:1313/experience/job-3/" class="experience__link">
- &lt;div class="experience__header">
- 
- 
- &lt;div class="experience__meta">
- &lt;div class="experience__date">2024-now&lt;/div>
- &lt;div class="experience__title">CIO&lt;/div>
- &lt;div class="experience__company">
- Internet Affairs Inc. .
- &lt;span class="experience__location">Stavanger, Norway&lt;/span>
- &lt;/div>
- &lt;/div>
- &lt;div class="experience__description d-none d-print-block">
- &lt;h1>Job #3&lt;/h1>
- 3rd job: CIO As Chief Information Officer at Internet Affairs Inc., I lead the strategic transformation of our digital infrastructure and cybersecurity initiatives. My team of 150+ IT professionals works tirelessly to protect and optimize our global network spanning 23 countries.
-During my tenure, I&amp;rsquo;ve spearheaded the implementation of a revolutionary blockchain-based verification system that reduced fraudulent transactions by 87% while improving processing speeds by 300%. This initiative saved the company $12M annually and earned us the prestigious &amp;ldquo;Digital Innovation Award 2024&amp;rdquo;.
-I&amp;rsquo;m particularly proud of our &amp;ldquo;Green Computing&amp;rdquo; program which has successfully migrated 75% of our data centers to renewable energy sources. This environmental initiative not only reduced our carbon footprint by 45% but also resulted in a 30% reduction in operational costs.
-In my role, I also serve as a member of the executive board, helping shape the company&amp;rsquo;s long-term technology vision and ensuring our IT strategy aligns perfectly with our business objectives. Currently leading an ambitious AI integration project that promises to revolutionize our customer service capabilities.
 
- &lt;/div>
- &lt;/div>
- &lt;/a>
- &lt;/div>
- 
- &lt;div class="experience">
- &lt;a href="http://localhost:1313/experience/job-3.es/" class="experience__link">
- &lt;div class="experience__header">
+ &lt;picture class="">
  
  
- &lt;div class="experience__meta">
- &lt;div class="experience__date">2024-now&lt;/div>
- &lt;div class="experience__title">Gerente General&lt;/div>
- &lt;div class="experience__company">
- Translated Content.
- &lt;span class="experience__location">Stavanger, Norway&lt;/span>
- &lt;/div>
- &lt;/div>
- &lt;div class="experience__description d-none d-print-block">
- &lt;h1>Puesto #3&lt;/h1>
- 3rd job: Gerente General Con una traducción al español, se puede llegar a cualquier parte.
 
- &lt;/div>
- &lt;/div>
- &lt;/a>
- &lt;/div>
- 
- &lt;div class="experience">
- &lt;a href="http://localhost:1313/experience/job-3.es-copy/" class="experience__link">
- &lt;div class="experience__header">
- 
- 
- &lt;div class="experience__meta">
- &lt;div class="experience__date">2024-ahora&lt;/div>
- &lt;div class="experience__title">Director Ejecutivo&lt;/div>
- &lt;div class="experience__company">
- Internet Affairs Inc..
- &lt;span class="experience__location">Stavanger, Noruega&lt;/span>
- &lt;/div>
- &lt;/div>
- &lt;div class="experience__description d-none d-print-block">
- &lt;h1>Trabajo #3&lt;/h1>
- Arreglando el mundo, un byte a la vez ¡Adquisición hostil - ¿quién es el jefe ahora?!
+ &lt;source srcset="http://localhost:1313/images/clients/goldline_hu_84825c7b54e425cc.webp 1x, http://localhost:1313/images/clients/goldline_hu_633c9d6d1e1beae8.webp 2x" type="image/webp" />
+ &lt;source srcset="http://localhost:1313/images/clients/goldline_hu_7bd367f322b62e4.png 1x, http://localhost:1313/images/clients/goldline_hu_c2a247fb030d7d9b.png 2x" type="image/png">
 
- &lt;/div>
- &lt;/div>
- &lt;/a>
- &lt;/div>
- 
- &lt;div class="experience">
- &lt;a href="http://localhost:1313/experience/job-2/" class="experience__link">
- &lt;div class="experience__header">
- 
- 
- &lt;div class="experience__meta">
- &lt;div class="experience__date">2023-2024&lt;/div>
- &lt;div class="experience__title">Chief Intern&lt;/div>
- &lt;div class="experience__company">
- Internet Affairs Inc. .
- &lt;span class="experience__location">Stavanger, Norway&lt;/span>
- &lt;/div>
- &lt;/div>
- &lt;div class="experience__description d-none d-print-block">
- &lt;h1>Job #2&lt;/h1>
- 2nd job: Chief Intern As Chief Intern at Internet Affairs Inc., I led several key initiatives that helped streamline our internal processes and boost productivity. Working closely with cross-functional teams, I developed and implemented an automated documentation system that reduced report generation time by 65% and improved accuracy by 40%.
-During my internship, I spearheaded the company&amp;rsquo;s first-ever &amp;ldquo;Innovation Lab&amp;rdquo; program, where I mentored junior interns and coordinated weekly brainstorming sessions. This initiative resulted in three patent-pending solutions and garnered attention from senior management. The program has since been adopted as a permanent fixture in the company&amp;rsquo;s internship structure.
-My most significant achievement was the successful implementation of a machine learning algorithm that optimized our resource allocation system. This project not only improved resource utilization by 35% but also led to my eventual promotion to CIO. I also actively participated in community outreach programs, organizing coding workshops for local high school students and contributing to the company&amp;rsquo;s STEM education initiatives.
-
- &lt;/div>
- &lt;/div>
- &lt;/a>
- &lt;/div>
- 
- &lt;div class="experience">
- &lt;a href="http://localhost:1313/experience/job-2.es/" class="experience__link">
- &lt;div class="experience__header">
- 
- 
- &lt;div class="experience__meta">
- &lt;div class="experience__date">2023-2024&lt;/div>
- &lt;div class="experience__title">Becario Jefe&lt;/div>
- &lt;div class="experience__company">
- Internet Affairs Inc..
- &lt;span class="experience__location">Stavanger, Noruega&lt;/span>
- &lt;/div>
- &lt;/div>
- &lt;div class="experience__description d-none d-print-block">
- &lt;h1>Trabajo #2&lt;/h1>
- Arreglando el mundo, un byte a la vez Continuando la misión.
-
- &lt;/div>
- &lt;/div>
- &lt;/a>
- &lt;/div>
- 
- &lt;div class="experience">
- &lt;a href="http://localhost:1313/experience/job-1/" class="experience__link">
- &lt;div class="experience__header">
- 
- 
- 
- &lt;img 
- src="http://localhost:1313/images/experience/internet-affairs_hu_c3e642ec43df5fb9.webp" 
- alt=" logo"
- class="experience__company-logo"
+ &lt;img
+ width="129"
+ height="30"
+ class="lozad img-responsive portfolio-project img-responsive"
+ data-src="http://localhost:1313/images/clients/goldline_hu_7bd367f322b62e4.png"
+ alt=''
+ src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
  loading="lazy"
+ decoding="async"
  />
- 
- &lt;div class="experience__meta">
- &lt;div class="experience__date">2022-2024&lt;/div>
- &lt;div class="experience__title">Junior Intern&lt;/div>
- &lt;div class="experience__company">
- Internet Affairs Inc. .
- &lt;span class="experience__location">Stavanger, Norway&lt;/span>
- &lt;/div>
- &lt;/div>
- &lt;div class="experience__description d-none d-print-block">
- &lt;h1>Job #1&lt;/h1>
- 1st job: Junior Intern The beginning of a great career. As a Junior Intern at Internet Affairs Inc., I had the opportunity to work on various projects that helped me develop my technical and professional skills. Working alongside experienced developers, I contributed to the company&amp;rsquo;s core web applications and learned industry best practices in software development.
-During my internship, I took the initiative to create an internal documentation wiki that improved knowledge sharing across teams. This project taught me valuable lessons in technical writing and collaboration. I also participated in code reviews and daily stand-ups, gaining firsthand experience in agile development methodologies.
-My most notable achievement was developing an automated testing script that reduced QA time by 25%. This project not only improved team efficiency but also demonstrated my ability to identify problems and implement effective solutions. Additionally, I actively participated in the company&amp;rsquo;s mentorship program, where I helped onboard new interns and shared my growing knowledge with peers.
-Through these experiences, I built a strong foundation in software development and professional collaboration, setting the stage for my advancement to more senior roles within the company.
+ &lt;/picture>
 
- &lt;/div>
- &lt;/div>
- &lt;/a>
- &lt;/div>
- 
-
- 
- &lt;div class="all-experience-container">
- 
- &lt;em>And 2 more&lt;/em>&lt;br />
- &lt;a href="http://localhost:1313/experience" class="btn btn-primary btn-all-experience">
- &lt;i class="">&lt;/i>
- View all
  &lt;/a>
  &lt;/div>
  
  &lt;/div>
- &lt;div class="experience-description col-12 col-md-6">
- 
- 
-
-
-
-
-
-
-
-
-
-&lt;div class="container-experience">
- &lt;div class="row">
- &lt;h2>Intro (intro_title)&lt;/h2>
- &lt;div class="lead">Description (intro_description).&lt;br>You can use HTML,with &lt;strong>strong&lt;/strong> formatting, or lists &lt;ul>&lt;li>one&lt;/li>&lt;li>two&lt;/li>&lt;/ul>&lt;/div>
  &lt;/div>
-
- &lt;div class="row">
- 
- &lt;div class="col-12 col-lg-4">
- &lt;a
- href='https://example.com'
- class="btn btn-primary btn-block w-100"
- target="_blank"
- rel="noopener noreferrer"
- >
- &lt;i class="icon-globe">&lt;/i>
- (1) Visit Example
- &lt;i class="icon-arrow-right">&lt;/i>
- &lt;/a>
  &lt;/div>
  
-
  
- &lt;div class="col-12 col-lg-4">
- &lt;a
- href='http://localhost:1313/skills'
- class="btn btn-frameless w-100"
- target="_blank"
- rel="noopener noreferrer"
+ 
+ 
+ &lt;div
+ class="row row--padded rad-animation-group rad-fade-down 
+ flex-column-reverse flex-md-row even-row"
  >
  
- (2) Skills
- &lt;/a>
- &lt;/div>
- 
-
- 
- &lt;div class="col-12 col-lg-4">
- &lt;a
- href='http://localhost:1313/experience'
- class="btn btn-frameless w-100"
- rel="noopener noreferrer"
- >
- 
- View all
- &lt;/a>
- &lt;/div>
- 
- &lt;/div>
-&lt;/div>
-
- &lt;/div>
- &lt;/div>
-&lt;/section>
-
-
-
-
-
-
-
-
-
-&lt;section id="experience-list-shortcode" class="section-experience section section--border-bottom rad-animation-group flex-grow-1 ">
- &lt;div class="row flex-column-reverse flex-md-row rad-fade-down">
- &lt;div class="experience-list col-12 mt-5 mt-sm-0">
- 
- &lt;h2 class="section__title mb-4">Experience (as list)&lt;/h2>
- 
- 
- 
-
- 
-
- 
- &lt;div class="experience row">
- &lt;div class="experience__header col-12 col-md-3 d-flex align-items-start">
- 
- 
- &lt;div class="experience__meta">
- &lt;div class="experience__date">2024-now&lt;/div>
- &lt;div class="experience__title">CIO&lt;/div>
- &lt;div class="experience__company">Internet Affairs Inc. . &lt;span class="experience__location">
- Stavanger, Norway&lt;/span>&lt;/div>
- &lt;/div>
- &lt;/div>
- &lt;div class="experience__description d-print-block col-12 col-md-9 mt-3 mt-md-0">
- &lt;h1>Job #3&lt;/h1>
- &lt;h2 id="3rd-job-cio">3rd job: CIO&lt;/h2>
-&lt;p>As Chief Information Officer at Internet Affairs Inc., I lead the strategic transformation of our digital infrastructure and cybersecurity initiatives. My team of 150+ IT professionals works tirelessly to protect and optimize our global network spanning 23 countries.&lt;/p></description></item><item><title>Inicio</title><link>http://localhost:1313/home/home.es/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/home/home.es/</guid><description>&lt;section id="seccion-destacada" class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
+ &lt;div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto even">
+ &lt;h3>Radity Finance - UI Kit&lt;/h3>
+ &lt;div class="lead">
+ &lt;p>We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech.&lt;/p></description></item><item><title>Impressum &amp; Datenschutz</title><link>http://localhost:1313/impressum-datenschutz/impressum-datenschutz/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/impressum-datenschutz/impressum-datenschutz/</guid><description>&lt;h1 id="impressum">Impressum&lt;/h1>
+&lt;p>Verantwortlich für den Inhalt der Seite spyingonscience.com:&lt;br>
+Andrea Koplitz-Weißgerber&lt;br>
+Freiberufliche Biologin&lt;/p>
+&lt;p>Geschäftsadresse:&lt;br>
+Rheinsteinstraße 8&lt;br>
+DE-81375 München&lt;/p>
+&lt;h1 id="kontakt">Kontakt&lt;/h1>
+&lt;p>Telefon: +49 176 2743 1888&lt;br>
+E-Mail: &lt;a href="mailto:spyingonscience@posteo.com?subject=Kontaktaufnahme%20%c3%bcber%20die%20Webseite%20spyingonscience.com">spyingonscience@posteo.com&lt;/a>&lt;/p>
+&lt;h1 id="disclaimer">Disclaimer&lt;/h1>
+&lt;h2 id="haftung-für-inhalte">Haftung für Inhalte&lt;/h2>
+&lt;p>Als Diensteanbieter sind wir für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Wir sind als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.&lt;br>
+Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.&lt;/p></description></item><item><title>Inicio</title><link>http://localhost:1313/home/home.es/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/home/home.es/</guid><description>&lt;section id="seccion-destacada" class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
  &lt;div id="main-content">
  
 
@@ -1756,34 +1697,7 @@ Through these experiences, I built a strong foundation in software development a
 
 
 
-
  
- 
-
-
-
- 
- 
-
-
- &lt;picture class="">
- 
- 
-
- &lt;source srcset="http://localhost:1313/images/showcase/showcase_hu_d37b8c855bc40569.webp 1x, http://localhost:1313/images/showcase/showcase_hu_bb220d2f819b63f2.webp 2x" type="image/webp" />
- &lt;source srcset="http://localhost:1313/images/showcase/showcase_hu_36a7c350e756fdba.png 1x, http://localhost:1313/images/showcase/showcase_hu_55c9d46ab35228bc.png 2x" type="image/png">
-
- &lt;img
- width="790"
- height="768"
- class="lozad img-responsive "
- data-src="http://localhost:1313/images/showcase/showcase_hu_36a7c350e756fdba.png"
- alt=''
- src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
- loading="lazy"
- decoding="async"
- />
- &lt;/picture>
 
 
 
@@ -2103,8 +2017,8 @@ Through these experiences, I built a strong foundation in software development a
  &lt;div class="col-12 col-sm-6 mb-4 mb-sm-0">
  &lt;div class="education">
  &lt;div class="education__date">2020-2024&lt;/div>
- &lt;div class="education__title">TUM&lt;/div>
- &lt;div class="education__degree">Bachelor of Applied Science (BASc), Electrical Engineering&lt;/div>
+ &lt;div class="education__title">Technische Universität München&lt;/div>
+ &lt;div class="education__degree">Master of Science (M. Sc.), Biologie&lt;/div>
  &lt;/div>
  &lt;/div>
  
@@ -2113,6 +2027,22 @@ Through these experiences, I built a strong foundation in software development a
  &lt;div class="education__date">2009-2012&lt;/div>
  &lt;div class="education__title">High School of Hard Knocks&lt;/div>
  &lt;div class="education__degree">High School Diploma, Sciences, Math, Computer &amp;amp; Business Studies&lt;/div>
+ &lt;/div>
+ &lt;/div>
+ 
+ &lt;div class="col-12 col-sm-6 mb-4 mb-sm-0">
+ &lt;div class="education">
+ &lt;div class="education__date">2016-2020&lt;/div>
+ &lt;div class="education__title">Ludwig-Maximilians-Universität München&lt;/div>
+ &lt;div class="education__degree">Bachelor of Science (B. Sc.), Biologie&lt;/div>
+ &lt;/div>
+ &lt;/div>
+ 
+ &lt;div class="col-12 col-sm-6 mb-4 mb-sm-0">
+ &lt;div class="education">
+ &lt;div class="education__date">2022-2023&lt;/div>
+ &lt;div class="education__title">Università degli Studi di Padova&lt;/div>
+ &lt;div class="education__degree">Ersamus, Marine Biology (M. Sc.)&lt;/div>
  &lt;/div>
  &lt;/div>
  
@@ -2168,42 +2098,36 @@ Through these experiences, I built a strong foundation in software development a
  &lt;div class="experience__header">
  
  
+ 
+ &lt;img 
+ src="http://localhost:1313/images/experience/kalender_hu_355bfb9c9afc385b.webp" 
+ alt=" logo"
+ class="experience__company-logo"
+ loading="lazy"
+ />
+ 
  &lt;div class="experience__meta">
- &lt;div class="experience__date">2024-now&lt;/div>
- &lt;div class="experience__title">CIO&lt;/div>
+ &lt;div class="experience__date">2025&lt;/div>
+ &lt;div class="experience__title">Veranstaltungen&lt;/div>
  &lt;div class="experience__company">
- Internet Affairs Inc. .
- &lt;span class="experience__location">Stavanger, Norway&lt;/span>
+ Wissenschaftskommunikation &amp;amp; Events.
+ &lt;span class="experience__location">Raum München.&lt;/span>
  &lt;/div>
  &lt;/div>
  &lt;div class="experience__description d-none d-print-block">
- &lt;h1>Job #3&lt;/h1>
- 3rd job: CIO As Chief Information Officer at Internet Affairs Inc., I lead the strategic transformation of our digital infrastructure and cybersecurity initiatives. My team of 150+ IT professionals works tirelessly to protect and optimize our global network spanning 23 countries.
-During my tenure, I&amp;rsquo;ve spearheaded the implementation of a revolutionary blockchain-based verification system that reduced fraudulent transactions by 87% while improving processing speeds by 300%. This initiative saved the company $12M annually and earned us the prestigious &amp;ldquo;Digital Innovation Award 2024&amp;rdquo;.
-I&amp;rsquo;m particularly proud of our &amp;ldquo;Green Computing&amp;rdquo; program which has successfully migrated 75% of our data centers to renewable energy sources. This environmental initiative not only reduced our carbon footprint by 45% but also resulted in a 30% reduction in operational costs.
-In my role, I also serve as a member of the executive board, helping shape the company&amp;rsquo;s long-term technology vision and ensuring our IT strategy aligns perfectly with our business objectives. Currently leading an ambitious AI integration project that promises to revolutionize our customer service capabilities.
-
- &lt;/div>
- &lt;/div>
- &lt;/a>
- &lt;/div>
- 
- &lt;div class="experience">
- &lt;a href="http://localhost:1313/experience/job-3.es/" class="experience__link">
- &lt;div class="experience__header">
- 
- 
- &lt;div class="experience__meta">
- &lt;div class="experience__date">2024-now&lt;/div>
- &lt;div class="experience__title">Gerente General&lt;/div>
- &lt;div class="experience__company">
- Translated Content.
- &lt;span class="experience__location">Stavanger, Norway&lt;/span>
- &lt;/div>
- &lt;/div>
- &lt;div class="experience__description d-none d-print-block">
- &lt;h1>Puesto #3&lt;/h1>
- 3rd job: Gerente General Con una traducción al español, se puede llegar a cualquier parte.
+ &lt;h1>_&lt;/h1>
+ Öffentlich So., 18.05.2025 um 10-17:00 Uhr (München, BY) Internationaler Museums Tag im Museum Mensch und Natur
+Mo., 09.06.2025 um xx-xx:00 Uhr (München, BY) KIKS-Festival
+Sa., 05.07.25 um xx-xx:00 Uhr (München, BY) Stadtteilwochen München (Neuhausen-Nymphenburg)
+Fr., 04.07.25 um 15-16:00 Uhr (München, BY) Familienführung im Museum Mensch und Natur: &amp;ldquo;Der Wald als Lebensraum&amp;rdquo; Sa., 19.07.2025 um 15:00-18:00 (München, BY) Serenade im Park: Kinder- &amp;amp; Mitmachprogramm
+Fr., 29.08.25 um 15-16:00 Uhr (München, BY) Familienführung im Museum Mensch und Natur: &amp;ldquo;Besuch des Erdbebensimulators&amp;rdquo;
+Fr., 31.10.25 um 15-16:00 Uhr (München, BY) Familienführung im Museum Mensch und Natur: &amp;ldquo;Faszination Fledermaus&amp;rdquo;
+_ Voranmeldung erforderlich Di., 01.07.2025 um 09-16:00 (München, BY)
+Lehrerfortbildung Grundschule 2025 – Wasserthemen spannend vermitteln
+Infos &amp;amp; Veranstaltungsort Anmeldung bis 23.06.25 hier
+Do., 03.07.2025 um xx-xx:00 Uhr (München, BY) Blinden- und Sehbehinderten Workshop Weitere Infos folgen
+Di., 08.07.2025 um xx-xx:00 Uhr (München, BY) Blinden- und Sehbehinderten Workshop Weitere Infos folgen
+_ Archiv (bis einschl. 2024) Hier im Archiv sind alle vergangenen Veranstaltungen der letzten Monate und Jahre für Interessierte zum stöbern chronologisch aufgelistet. Diese Liste erhebt keinen Anspruch auf vollständigkeit, sondern soll einfach einen Einblick in meine bisherige Arbeit gewähren. &amp;gt; Zum Archiv (Linktree)
 
  &lt;/div>
  &lt;/div>
@@ -2237,19 +2161,29 @@ In my role, I also serve as a member of the executive board, helping shape the c
  &lt;div class="experience__header">
  
  
+ 
+ &lt;img 
+ src="http://localhost:1313/images/experience/scicomm_hu_fc14f211540eed50.webp" 
+ alt=" logo"
+ class="experience__company-logo"
+ loading="lazy"
+ />
+ 
  &lt;div class="experience__meta">
- &lt;div class="experience__date">2023-2024&lt;/div>
- &lt;div class="experience__title">Chief Intern&lt;/div>
+ &lt;div class="experience__date">seit 2021&lt;/div>
+ &lt;div class="experience__title">Umweltbildung&lt;/div>
  &lt;div class="experience__company">
- Internet Affairs Inc. .
- &lt;span class="experience__location">Stavanger, Norway&lt;/span>
+ Freiberufliche Referentin.
+ &lt;span class="experience__location">Raum München.&lt;/span>
  &lt;/div>
  &lt;/div>
  &lt;div class="experience__description d-none d-print-block">
- &lt;h1>Job #2&lt;/h1>
- 2nd job: Chief Intern As Chief Intern at Internet Affairs Inc., I led several key initiatives that helped streamline our internal processes and boost productivity. Working closely with cross-functional teams, I developed and implemented an automated documentation system that reduced report generation time by 65% and improved accuracy by 40%.
-During my internship, I spearheaded the company&amp;rsquo;s first-ever &amp;ldquo;Innovation Lab&amp;rdquo; program, where I mentored junior interns and coordinated weekly brainstorming sessions. This initiative resulted in three patent-pending solutions and garnered attention from senior management. The program has since been adopted as a permanent fixture in the company&amp;rsquo;s internship structure.
-My most significant achievement was the successful implementation of a machine learning algorithm that optimized our resource allocation system. This project not only improved resource utilization by 35% but also led to my eventual promotion to CIO. I also actively participated in community outreach programs, organizing coding workshops for local high school students and contributing to the company&amp;rsquo;s STEM education initiatives.
+ &lt;h1>_&lt;/h1>
+ Angebote in außerschulischen Bildungseinrichtungen &amp;hellip; Augen die Ungeahntes erblicken und fragende Münder in Gesichtern von Köpfen, die Neues für sich entdecken, von Menschen, die Zusammenhänge begreifen und Diskussionen über das gesammelte Wissen anzetteln: Das sind für mich die Sporen der Fruchtkörper meines Bildungsarbeit-Myzels! Diese Bio-Nerd-Referenz nicht kapiert? Kein Problem, da kann ich gerne durch mein Bildungsangebot Licht ins Dunkle und die Phototaxis einer jeden Person in Schwung bringen. Und wenn doch schon bekannt, dann wird&amp;rsquo;s trotzdem garantiert fröhlich zugehen! 😉 🍄 ☀️ 🧫
+Gemeinsam mit einem großartigen Team übernehme ich Aufträge von (Grund- /Berufs- /Real- /Hoch- /Mittel-) Schulen, Universitäten, Gymnasien, Kitas, Kindergärten, Privatgruppen, Freiziteinrichtungen, Seniorengruppen uvm. für Workshops und Führungen rund um Mensch, Umwelt, Naturwissenschaft und Nachhaltigkeit in verschiedenen außerschulischen Bildungseinrichtungen im Raum München.
+Klicken Sie sich doch mal durch die Internetpräsenzen des Museums Mensch und Natur im Nymphenburger Schloss München und des BIOTOPIA Labs im Botanischen Garten München. Ich freue mich, wenn Sie hier fündig werden! Vielleicht sieht man sich!
+_ Induviduelle Bildungsangebote Sie wollen mit mir gemeinsam eine Veranstaltung planen und/oder durchführen? Ich bin sehr interessiert an neuen Ideen, Herausforderungen und Settings! Schreiben Sie mir gerne gleich jetzt eine E-Mail. Bitte rechnen Sie mit einer Antwortdauer von bis zu 5 Werktagen (vor allem während der Geländesaison im Mai bis Oktober).
+_ Preise Meine Preisgestaltung orientiert sich grundsätzlich an der Honorarermittlung für freie Limnologen freie Limnologen (Leistungsverzeichnis für Limnologie, 2012). Weiterhin lehne ich meine Preise für Führungen und Workshops an die Preise meiner vermittelnden Kooperationspartner an.
 
  &lt;/div>
  &lt;/div>
@@ -2285,26 +2219,54 @@ My most significant achievement was the successful implementation of a machine l
  
  
  &lt;img 
- src="http://localhost:1313/images/experience/internet-affairs_hu_c3e642ec43df5fb9.webp" 
+ src="http://localhost:1313/images/experience/diatoms_hu_30d6d56e02fa5c9b.webp" 
  alt=" logo"
  class="experience__company-logo"
  loading="lazy"
  />
  
  &lt;div class="experience__meta">
- &lt;div class="experience__date">2022-2024&lt;/div>
- &lt;div class="experience__title">Junior Intern&lt;/div>
+ &lt;div class="experience__date">seit 2024&lt;/div>
+ &lt;div class="experience__title">Limnologie&lt;/div>
  &lt;div class="experience__company">
- Internet Affairs Inc. .
- &lt;span class="experience__location">Stavanger, Norway&lt;/span>
+ Freiberufliche Biologin.
+ &lt;span class="experience__location">Von München aus deutschlandweit.&lt;/span>
  &lt;/div>
  &lt;/div>
  &lt;div class="experience__description d-none d-print-block">
- &lt;h1>Job #1&lt;/h1>
- 1st job: Junior Intern The beginning of a great career. As a Junior Intern at Internet Affairs Inc., I had the opportunity to work on various projects that helped me develop my technical and professional skills. Working alongside experienced developers, I contributed to the company&amp;rsquo;s core web applications and learned industry best practices in software development.
-During my internship, I took the initiative to create an internal documentation wiki that improved knowledge sharing across teams. This project taught me valuable lessons in technical writing and collaboration. I also participated in code reviews and daily stand-ups, gaining firsthand experience in agile development methodologies.
-My most notable achievement was developing an automated testing script that reduced QA time by 25%. This project not only improved team efficiency but also demonstrated my ability to identify problems and implement effective solutions. Additionally, I actively participated in the company&amp;rsquo;s mentorship program, where I helped onboard new interns and shared my growing knowledge with peers.
-Through these experiences, I built a strong foundation in software development and professional collaboration, setting the stage for my advancement to more senior roles within the company.
+ &lt;h1>_&lt;/h1>
+ Derzeitige Dienstleistungen Mit großer Begeisterung etabliere ich mich im Bereich der Gewässeruntersuchung/-ökologie. Ich bilde mich auch nach meinem Studienabschluss fort und freue mich sehr über neue Chancen. Informieren Sie sich gerne auf dieser Seite, ob eine Zusammenarbeit mit mir Sie überzeugt. Kontaktieren Sie mich gerne per E-Mail für allgemeine Fragen und konkrete Anfragen. Ich bin gerne behilflich und nehme mir die Zeit. Bitte rechnen Sie mit einer Antwortdauer von bis zu 5 Werktagen (vor allem während der Geländesaison im Mai bis Oktober).
+Assistenz in der Feldarbeit vor Ort 📍 von München ausgehend z. Zt. deutschlandweit
+Protokollführung
+Hydrophysiologische Messungen nach Einweisung in die Gerätschaften
+Unterstützung der Probenahme und Probenfixierung/-herbarisierung (Phytobenthos ohne Diatomeen und Makrophyten, Makrozoobenthos) entsprechend Einweisung in den individuellen Workflow und entspechender Handlungsanweisung des Auftrags
+Diatomeenprobenahme &amp;amp; Ethanolfixierung
+Ausrüstung:
+Federstahlpinzetten, Gummistiefel, Lupe 10x, Wathose, usw. nach Absprache Feld-Handy (Galaxy Xcover6 Pro 128GB; Android) Führerscheine B/BE und SBF-Binnen/-See ggf. privater PKW für An-/Abreise gute Laune und, wenn gewünscht, immer einen lösungsorientierten Vorschlag bei etwaigen Hürden Diatomeentaxonomie Analyse der Diatomeenzusammensetzung eines fertigen Diatomeenpräparats Mikroskop: Zeiss Axiolab5 (aplan.-achrom. Kondensor, Objektiv EC Plan-Neofluar 100x/1,3 Oil Ph3 M27, Zeiss Immersol 518 N) Kamera: Euromex Ultra HD/ 4k Stand Alone Kamera (VC.3042) Software: ImageFocusAlpha (Euromex) Aufbereitung der Taxalisten in Excel (Microsoft) entsprechend aktuellen Bundestaxalisten bzw. Zieleingabeprogrammen _ Preise Meine Preisgestaltung orientiert sich grundsätzlich an der Honorarermittlung für freie Limnologen freie Limnologen (Leistungsverzeichnis für Limnologie, 2012).
+_ Referenzen Diese chronologische Auflistung (kürzlich abgeschlossene Projekte zuerst) meiner Tätigkeiten im Bereich Gewässerökologie erhebt keinen Anspruch auf Vollständigkeit. Sie dient Ihnen als Orientierung bzgl. meiner bisherigen Arbeitserfahrung.
+Zeitraum: 01.04.24-31.05.25 Ansprechpartnerin: Dr. Uta Raeder (Alumna der Limnologischen Forschungsstation Iffeldorf) Leistung: Co-Betreuung von drei Bachelor- und drei Masterarbeiten, die die Analyse von Diatomeengesellschaften von Quellstandorten zum Inhalt haben. Zeitraum: 01.01.-31.03.25 Ansprechpartnerin: Dr. Uta Raeder (Alumna der Limnologischen Forschungsstation Iffeldorf) Leistung: Wissenschaftliche Mitarbeit zur Übergabe des Projektes „Mikroklima im Klimawandel – Refugien und Hotspots in den Bayerischen Nationalparks (MiKRoNP 2022/25): Teilprojekt (3) Quellen“. Tätigkeiten: Diatomeentaxonomie, Berichterstattung und Datenmanagement/-sortierung Zeitraum: 01.01.-31.03.25 Auftraggeber: Dr. Marcus Werum Leistung: Diatomeentaxonomie für das Projekt der HBICON „Untersuchung und Auswertung von Diatomeenproben entsprechend EG-WRRL oberhalb und unterhalb von Einleitern aus Fließgewässern Nordrhein-Westfalens“. Zeitraum: 01.01.-31.03.25 Auftraggeber: Dr. Marcus Werum Leistung: Diatomeentaxonomie für die folgenden Projekte der GefaÖ „Probenahme, Aufbereitung und Untersuchung von Kieselalgenproben am Marsbach nach EG-WRRL“, „Probenahme, Aufbereitung und Untersuchung von Kieselalgenproben am Hiffelbach nach EG-WRRL“ und „Probenahme, Aufbereitung und Untersuchung von Kieselalgenproben am Kehrgraben nach EG-WRRL&amp;quot;. Zeitraum: 01.09.-30.11.24 Auftraggeber: Dr. Marcus Werum Leistung: Diatomeentaxonomie im Projekt „Bewertung von Fließgewässern Hessens (Los 4) anhand der Diatomeen nach Phylib Bewertungsverfahren“. Zeitraum: 01.04.23-01.08.24 Ansprechpartnerin: Dr. Uta Raeder (Alumna der Limnologischen Forschungsstation Iffeldorf) Leistung: Masterarbeit im Rahmen des Projektes „Mikroklima im Klimawandel – Refugien und Hotspots in den Bayerischen Nationalparks (MiKRoNP 2022/25): Teilprojekt (3) Quellen“ Tätigkeiten: Diatomeentaxonomie, Geländearbeit, Quellkartierung, Hydrophysiologie, uvm. Zeitraum: 11.03.-28.03.24 Ansprechpartnerin: Dr. Uta Raeder (Alumna der Limnologischen Forschungsstation Iffeldorf) Leistung: Leitung des dreiwöchigen Intensivkurses „Bioindikation mit Diatomeen und Rasterelektronenmikroskopie“ für Studierende des Studiengangs M.Sc. Biologie. Zeitraum: 01.05.22-30.09.22 Ansprechpartnerin: Dr. Uta Raeder (Alumna der Limnologischen Forschungsstation Iffeldorf) Leistung: Projektarbeit für die „Limnologische Untersuchung der Teiche des Campeon; Mai 2022; Chemische und physikalische Parameter sowie Kieselalgen (Diatomeen)“ Tätigkeiten: Diatomeentaxonomie, Geländearbeit, Hydrophysiologie und Berichterstattung. noch ergänzen: Feldarbeit Manu RLP 1 &amp;amp; 2 2024; Feldarbeit Donau 24/25; Feldarbeit Matthias 2024 Tauberthal
+
+ &lt;/div>
+ &lt;/div>
+ &lt;/a>
+ &lt;/div>
+ 
+ &lt;div class="experience">
+ &lt;a href="http://localhost:1313/experience/job-1.es/" class="experience__link">
+ &lt;div class="experience__header">
+ 
+ 
+ &lt;div class="experience__meta">
+ &lt;div class="experience__date">2022-2024&lt;/div>
+ &lt;div class="experience__title">Becario Junior&lt;/div>
+ &lt;div class="experience__company">
+ Internet Affairs Inc..
+ &lt;span class="experience__location">Stavanger, Noruega&lt;/span>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="experience__description d-none d-print-block">
+ &lt;h1>Trabajo #1&lt;/h1>
+ Arreglando el mundo, un byte a la vez El comienzo de una gran carrera.
 
  &lt;/div>
  &lt;/div>
@@ -2315,7 +2277,7 @@ Through these experiences, I built a strong foundation in software development a
  
  &lt;div class="all-experience-container">
  
- &lt;em>And 2 more&lt;/em>&lt;br />
+ &lt;em>And 1 more&lt;/em>&lt;br />
  &lt;a href="http://localhost:1313/experience" class="btn btn-primary btn-all-experience">
  &lt;i class="">&lt;/i>
  View all
@@ -2392,4 +2354,4 @@ Through these experiences, I built a strong foundation in software development a
 &lt;h2 id="experiencia-lista">Experiencia (lista)&lt;/h2>
 &lt;p>Puedes ver una versión alternativa, usando &lt;code>experience-list&lt;/code> en &lt;a href="http://localhost:1313/cv/">/cv&lt;/a>.&lt;/p></description></item><item><title>Printable CV</title><link>http://localhost:1313/cv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/cv/</guid><description>&lt;p>ℹ This page is a demo of the printer-friendly output of the theme. You can find the source code in the demo repo (&lt;a href="https://raw.githubusercontent.com/zetxek/adritian-demo/refs/heads/main/content/cv.md%29">https://raw.githubusercontent.com/zetxek/adritian-demo/refs/heads/main/content/cv.md)&lt;/a>. Try printing it directly from your browser!&lt;/p>
 &lt;h3 id="about-me">About me&lt;/h3>
-&lt;p>I am a passionate software engineer with over 10 years of experience building web applications and distributed systems. My expertise spans full-stack development, cloud architecture, and leading engineering teams to deliver impactful solutions. I thrive on solving complex technical challenges while mentoring others and fostering a collaborative engineering culture.&lt;/p></description></item><item><title>Search</title><link>http://localhost:1313/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/search/</guid><description>search</description></item></channel></rss>
+&lt;p>I am a passionate software engineer with over 10 years of experience building web applications and distributed systems. My expertise spans full-stack development, cloud architecture, and leading engineering teams to deliver impactful solutions. I thrive on solving complex technical challenges while mentoring others and fostering a collaborative engineering culture.&lt;/p></description></item></channel></rss>
